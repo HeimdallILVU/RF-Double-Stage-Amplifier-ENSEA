@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE RF_Double_Stage_Amplifier_lib RF_Double_Stage_Amplifier_lib
+ASSIGN RF_Double_Stage_Amplifier_lib libMode shared

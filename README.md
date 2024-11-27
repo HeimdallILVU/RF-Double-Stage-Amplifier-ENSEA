@@ -1,4 +1,4 @@
-# Frequency Downshifting Module Project
+# Double Stage Amplifier Project
 
 ## Overview
 This project aims to develop a frequency downshifting module using off-the-shelf Surface-Mount Device (SMD) components. The module addresses a specific issue faced by Mr. Bares, who needs to shift the frequency emitted by his WiFi emitter from the busy 2.4GHz band to a lower 869MHz band. This module will be placed between the emitter and a modified 869MHz compatible antenna.
