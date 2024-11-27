@@ -1,0 +1,44 @@
+
+hpeesofsim (*) 531.update1.0 Oct 31 2020, MINT version 5
+    (64-bit windows built: Sat Oct 31, 2020 17:36:43 +0000)
+
+
+CT Sweep1[1] <test_model_ce3512k2_lib:ce3512k2_spar:schematic>   vgs=(-700e-03->0)
+Pt DC convergence is used.
+
+SP Sweep1[1].SP1[1/8] <test_model_ce3512k2_lib:ce3512k2_spar:schematic>  vgs=-700e-03  freq=(950 MHz->7.2 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    The simulation temperature (25.0 C) is not the same as the IEEE standard
+    noise temperature (290 K or 16.85 C) in the noise analysis `SP1'.
+    If the simulation temperature is not equal to the IEEE standard temperature,
+    then the loss and the noise figure will not agree for a passive circuit.
+    The `Temp' parameter on the Options item can be set to 16.85 C to
+    eliminate this warning message.
+
+
+
+SP Sweep1[1].SP1[2/8] <test_model_ce3512k2_lib:ce3512k2_spar:schematic>  vgs=-600e-03  freq=(950 MHz->7.2 GHz)
+
+
+SP Sweep1[1].SP1[3/8] <test_model_ce3512k2_lib:ce3512k2_spar:schematic>  vgs=-500e-03  freq=(950 MHz->7.2 GHz)
+
+
+SP Sweep1[1].SP1[4/8] <test_model_ce3512k2_lib:ce3512k2_spar:schematic>  vgs=-400e-03  freq=(950 MHz->7.2 GHz)
+
+
+SP Sweep1[1].SP1[5/8] <test_model_ce3512k2_lib:ce3512k2_spar:schematic>  vgs=-300e-03  freq=(950 MHz->7.2 GHz)
+
+
+SP Sweep1[1].SP1[6/8] <test_model_ce3512k2_lib:ce3512k2_spar:schematic>  vgs=-200e-03  freq=(950 MHz->7.2 GHz)
+
+
+SP Sweep1[1].SP1[7/8] <test_model_ce3512k2_lib:ce3512k2_spar:schematic>  vgs=-100e-03  freq=(950 MHz->7.2 GHz)
+
+
+SP Sweep1[1].SP1[8/8] <test_model_ce3512k2_lib:ce3512k2_spar:schematic>  vgs=0  freq=(950 MHz->7.2 GHz)
+
+
+Resource usage:
+  Heap Count = 164 Kitems  Size = 45 MB  Overhead = 2 MB   Total = 47 MB
+  Total stopwatch time     =     4.51 seconds.
+

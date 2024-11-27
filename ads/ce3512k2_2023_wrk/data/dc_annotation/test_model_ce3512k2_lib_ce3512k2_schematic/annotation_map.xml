@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotation_files Version="1.0" Simulator="hpeesofsim" Time="ven. sept. 29 10:39:33 2023">
+ <File name="annotation_1.xml">
+  <Controller name="DC_FET1.DC1">
+   <P>DC_FET1.VGS: -6.9999999999999996e-01</P>
+   <P>DC_FET1.VDS: 1.0000000000000000e+00</P>
+  </Controller>
+ </File>
+</annotation_files>

@@ -1,0 +1,5 @@
+jobName=EmPpMsgs
+jobType=emprep
+designName=test_model_ce3512k2_lib:pad_trasistor:layout
+ruleFilePath=
+addInfo="EM preprocessor messages displayed as DRC errors"

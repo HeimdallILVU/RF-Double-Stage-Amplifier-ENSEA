@@ -1,0 +1,90 @@
+
+hpeesofsim (*) 531.update1.0 Oct 31 2020, MINT version 5
+    (64-bit windows built: Sat Oct 31, 2020 17:36:43 +0000)
+
+Warning detected by hpeesofsim during netlist flattening.
+    Short `X1.PinShort__S2' is shorted.
+
+
+CT DC_FET1.S1[1] <test_model_ce3512k2_lib:cell_1:schematic>   DC_FET1.VGS=(-800e-03->0)
+
+DC DC_FET1.S1[1].DC_FET1.DC1[1/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=-800e-03  DC_FET1.VDS=(0->4)
+.Pt DC convergence is used.
+
+.
+........................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[2/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=-742.857e-03  DC_FET1.VDS=(0->4)
+.
+.
+........................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[3/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=-685.714e-03  DC_FET1.VDS=(0->4)
+.
+.
+........................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[4/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=-628.571e-03  DC_FET1.VDS=(0->4)
+.
+.
+........................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[5/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=-571.429e-03  DC_FET1.VDS=(0->4)
+.
+.
+........................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[6/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=-514.286e-03  DC_FET1.VDS=(0->4)
+.
+.
+........................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[7/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=-457.143e-03  DC_FET1.VDS=(0->4)
+.
+.
+........................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[8/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=-400e-03  DC_FET1.VDS=(0->4)
+.
+.
+........................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[9/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=-342.857e-03  DC_FET1.VDS=(0->4)
+.
+.
+........................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[10/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=-285.714e-03  DC_FET1.VDS=(0->4)
+.
+.
+........................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[11/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=-228.571e-03  DC_FET1.VDS=(0->4)
+.
+.
+........................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[12/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=-171.429e-03  DC_FET1.VDS=(0->4)
+.
+.
+........................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[13/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=-114.286e-03  DC_FET1.VDS=(0->4)
+.
+.
+........................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[14/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=-57.1429e-03  DC_FET1.VDS=(0->4)
+.
+.
+........................................
+
+DC DC_FET1.S1[1].DC_FET1.DC1[15/15] <test_model_ce3512k2_lib:cell_1:schematic>  DC_FET1.VGS=0  DC_FET1.VDS=(0->4)
+.
+.
+........................................
+
+Resource usage:
+  Heap Count = 167 Kitems  Size = 45 MB  Overhead = 2 MB   Total = 47 MB
+  Total stopwatch time     =     4.22 seconds.
+

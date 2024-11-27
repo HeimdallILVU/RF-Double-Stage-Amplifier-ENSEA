@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE test_model_ce3512k2_lib test_model_ce3512k2_lib
+ASSIGN test_model_ce3512k2_lib libMode shared
