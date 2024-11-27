@@ -1,0 +1,387 @@
+
+hpeesofsim (*) 570.shp Jul 19 2022, MINT version 5
+    (64-bit linux built: Tue Jul 19, 2022 14:06:28 +0000)
+
+
+***** Simulation started at Wed, Nov 27 2024 09:26:47 +0100
+      Running on host: "d289-pc2.smbedu.ensea.fr"
+      In Directory: "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/RF_Double_Stage_Amplifier_wrk/data"
+      User: "jerefleu", Process ID: 2021
+
+
+CT Sweep1[1] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>   Vds=(0->6)
+Pt DC convergence is used.
+
+SP Sweep1[1].SP1[1/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=0  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[2/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=50e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[3/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=100e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[4/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=150e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[5/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=200e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[6/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=250e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[7/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=300e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[8/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=350e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[9/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=400e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[10/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=450e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[11/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=500e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[12/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=550e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[13/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=600e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[14/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=650e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[15/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=700e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[16/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=750e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[17/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=800e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[18/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=850e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[19/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=900e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[20/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=950e-03  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[21/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[22/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.05  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[23/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.1  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[24/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.15  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[25/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.2  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[26/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.25  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[27/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.3  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[28/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.35  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[29/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.4  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[30/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.45  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[31/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.5  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[32/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.55  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[33/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.6  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[34/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.65  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[35/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.7  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[36/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.75  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[37/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.8  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[38/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.85  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[39/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.9  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[40/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=1.95  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[41/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[42/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.05  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[43/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.1  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[44/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.15  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[45/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.2  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[46/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.25  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[47/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.3  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[48/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.35  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[49/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.4  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[50/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.45  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[51/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.5  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[52/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.55  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[53/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.6  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[54/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.65  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[55/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.7  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[56/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.75  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[57/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.8  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[58/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.85  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[59/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.9  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[60/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=2.95  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[61/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[62/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.05  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[63/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.1  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[64/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.15  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[65/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.2  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[66/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.25  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[67/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.3  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[68/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.35  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[69/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.4  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[70/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.45  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[71/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.5  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[72/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.55  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[73/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.6  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[74/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.65  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[75/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.7  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[76/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.75  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[77/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.8  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[78/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.85  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[79/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.9  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[80/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=3.95  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[81/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[82/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.05  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[83/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.1  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[84/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.15  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[85/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.2  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[86/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.25  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[87/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.3  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[88/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.35  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[89/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.4  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[90/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.45  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[91/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.5  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[92/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.55  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[93/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.6  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[94/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.65  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[95/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.7  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[96/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.75  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[97/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.8  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[98/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.85  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[99/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.9  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[100/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=4.95  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[101/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[102/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.05  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[103/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.1  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[104/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.15  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[105/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.2  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[106/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.25  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[107/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.3  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[108/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.35  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[109/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.4  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[110/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.45  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[111/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.5  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[112/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.55  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[113/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.6  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[114/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.65  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[115/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.7  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[116/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.75  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[117/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.8  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[118/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.85  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[119/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.9  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[120/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=5.95  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Sweep1[1].SP1[121/121] <RF_Double_Stage_Amplifier_lib:in_out_impedance:schematic>  Vds=6  freq=(4.5 GHz->5.5 GHz)
+
+
+Resource usage:
+    User time                 =     0.69 seconds.
+    System time               =     0.11 seconds.
+    Total CPU time            =     0.81 seconds.
+    Simulation stopwatch time =     2.54 seconds.
+    Total stopwatch time      =     4.06 seconds.
+
+    Physical memory used: 104 MBytes.
+    Incremental virtual memory (data only) used:  42.4 MBytes.
+

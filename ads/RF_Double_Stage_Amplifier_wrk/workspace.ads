@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="4" Version="100">
+<ADSWorkspace Revision="11" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <Library Name="ads_standard_layers_ic" />
@@ -58,10 +58,47 @@
         <Preferences Name="layout.prf" />
         <Preferences Name="schematic.prf" />
         <Library Name="RF_Double_Stage_Amplifier_lib" />
-        <Folder Name="Emilie" />
+        <Folder Name="Emilie">
+            <Cell Name="RF_Double_Stage_Amplifier_lib:Proto" />
+            <Cell Name="RF_Double_Stage_Amplifier_lib:static network" />
+            <Data_Display Name="static network.dds" />
+            <Data_Display Name="Proto.dds" />
+            <Cell Name="RF_Double_Stage_Amplifier_lib:in_out_impedance" />
+            <Cell Name="RF_Double_Stage_Amplifier_lib:proto_stab" />
+            <Data_Display Name="in_out_impedance.dds" />
+            <Cell Name="RF_Double_Stage_Amplifier_lib:double_stage" />
+        </Folder>
         <Folder Name="Maxime">
             <Cell Name="RF_Double_Stage_Amplifier_lib:cell_1" />
         </Folder>
         <Folder Name="Main" />
+        <Library Name="test_model_ce3512k2_lib" />
+        <Substrate Name="test_model_ce3512k2_lib:teflon_762um.subst" />
+        <Cell Name="test_model_ce3512k2_lib:CEL_CE3512K2_modele" />
+        <Cell Name="test_model_ce3512k2_lib:pad_trasistor" />
+        <Log Name="netlist.log" />
+        <Dataset Name="Proto.ds" />
+        <Data_Files Name="dc_annotation/%R%F_%Double_%Stage_%Amplifier_lib_%Proto_schematic/annotation_1.xml" />
+        <Data_Files Name="dc_annotation/%R%F_%Double_%Stage_%Amplifier_lib_%Proto_schematic/annotation_map.xml" />
+        <Data_Files Name="Proto_data/logFile.txt" />
+        <Data_Files Name="Proto.ds" />
+        <Log Name="search_history.log" />
+        <ConfigFile Name="dds.cfg" />
+        <Dataset Name="static_network.ds" />
+        <Data_Files Name="dc_annotation/%R%F_%Double_%Stage_%Amplifier_lib_static#20network_schematic/annotation_1.xml" />
+        <Data_Files Name="dc_annotation/%R%F_%Double_%Stage_%Amplifier_lib_static#20network_schematic/annotation_map.xml" />
+        <Data_Files Name="static_network_data/logFile.txt" />
+        <Data_Files Name="static_network.ds" />
+        <Dataset Name="in_out_impedance.ds" />
+        <Data_Files Name="in_out_impedance_data/logFile.txt" />
+        <Data_Files Name="dc_annotation/%R%F_%Double_%Stage_%Amplifier_lib_in_out_impedance_schematic/annotation_1.xml" />
+        <Data_Files Name="dc_annotation/%R%F_%Double_%Stage_%Amplifier_lib_in_out_impedance_schematic/annotation_map.xml" />
+        <Data_Files Name="in_out_impedance.ds" />
+        <Dataset Name="in_out_impedance_vds_sweep.ds" />
+        <Data_Files Name="in_out_impedance_vds_sweep.ds" />
+        <Data_Files Name="in_out_impedance_vds_sweep_data/logFile.txt" />
+        <Dataset Name="in_out_impedance_vgs_sweep.ds" />
+        <Data_Files Name="in_out_impedance_vgs_sweep.ds" />
+        <Data_Files Name="in_out_impedance_vgs_sweep_data/logFile.txt" />
     </Workspace>
 </ADSWorkspace>

@@ -1,0 +1,68 @@
+; Top Design: "RF_Double_Stage_Amplifier_lib:double_stage:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="RF_Double_Stage_Amplifier_lib:double_stage:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+; Library Name: test_model_ce3512k2_lib
+; Cell Name: CEL_CE3512K2_modele
+; View Name: schematic
+define CEL_CE3512K2_modele ( G  D  S1  S2 ) 
+;parameters 
+model EEHEMTM1 EE_HEMT1 Vto=-770.5 mV Gamma= 43.31m Vgo=-192.0 mV Vdelt= 0.000  Vch= 986.9m Gmmax=82.40e-3 Vdso= 2.000  Vsat=572.1 mV Kapa= 33.33m Peff= 4.887  Vtso=-100.0 Is= 28.10n N= 3.898  Ris=5.357 Rid=1.000 mOhm Tau=3.727 psec Cdso=42.65 fF Rdb= 1.000G Cbs=160.0 fF Vtoac=-770.5 mV Gammaac=46.83m Vdeltac= 0.000  Gmmaxac=82.82e-3 Kapaac= 18.11m Peffac= 3.665  Vtsoac=-100.0  Gdbm=52.50u Kdb= 100.0  Vdsm= 100.0  C11o=6.7 fF C11th=23.47 fF Vinfl=-651.9 mV Deltgs= 363.1m Deltds= 100.0m Lambda= 13.79m C12sat= 29.99f Cgdsat= 25.51f Kbk= 30.00m Vbr=25.00 Nbr=2.000 Idsoc= 1.893  Rd= 5.657  Rs= 265.2m Rg= 139.6  Ugw= 140.0  Ngf= 2.000  Vco=-117.8m Vba= 1.000  Vbc= 300.0m Mu= 3.000m Deltgm= 127.5m Deltgmac= 127.5m Alpha= 33.38m Kmod=104.0 Kver=1.000K 
+"EEHEMTM1":EE_HEMT1  N__0 N__4 N__7 Noise=yes 
+L:L1  N__9 N__4 L=1.612 nH Noise=yes  
+L:L2  N__0 N__14 L=30.2 pH Noise=yes  
+L:L3  N__7 S2 L=648.6 pH R=0.0001 mOhm Noise=yes  
+L:L4  S1 N__7 L=648.6 pH R=0.0001 mOhm Noise=yes  
+TLINP:TL1  G N__9 Z=79.3 Ohm L=8.07 mm K=1 A=0.0001 F=1 GHz TanD=0.002 Mur=1 TanM=0 Sigma=0 DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz 
+TLINP:TL2  N__14 D Z=12.93 Ohm L=242.4 um K=1 A=0.0001 F=1 GHz TanD=0.002 Mur=1 TanM=0 Sigma=0 DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz 
+end CEL_CE3512K2_modele
+
+CEL_CE3512K2_modele:X1  N__1 N__18 0 0 
+
+Vgs=-0.3
+Vds=2.5
+Short:DC_Block1  N__0 N__1 Mode=1 
+Short:DC_Feed1  N__4 N__1 Mode=-1 
+V_Source:SRC1  N__4 0 Type="V_DC" Vdc=Vgs SaveCurrent=1 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=yes GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=yes SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=0.1 GHz Stop=9 GHz Step=0.1 GHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+
+Options:Options1 Temp=16.85 Tnom=16.85 TopologyCheck=yes ForceS_Params=yes GiveAllWarnings=yes  \
+MaxWarnings=10 SaveBranchCurrents=no OutputInternalNodes=no ForceM_Params=yes DC_ReadInitialGuess=no  \
+DC_WriteFinalSolution=no TopologyCheckMessages=no GPU=no doDeltaAC=no ReduceSPort=no  \
+ReduceSPortRatio=0.5 WarnSOA=yes MaxWarnSOA=5 Census=no MinNodalR=1e-2 Ohm  \
+LargeCapThreshold=1e-3 F EnableAssertChecks=no EnableSpareRemoval=no 
+
+aele MaxGain1=max_gain(S);
+aele StabFact1=stab_fact(S);
+Port:Term1  N__0 0 Num=1 Z=50 Ohm Noise=yes 
+Short:DC_Block2  N__10 N__8 Mode=1 
+Short:DC_Feed2  N__5 N__10 Mode=-1 
+V_Source:SRC2  N__3 0 Type="V_DC" Vdc=Vds SaveCurrent=1 
+Short:Id  N__3 N__5 Mode=0 SaveCurrent=yes 
+Port:Term2  N__8 0 Num=2 Z=50 Ohm Noise=yes 
+CEL_CE3512K2_modele:X2  N__16 N__10 0 0 
+V_Source:SRC3  N__12 0 Type="V_DC" Vdc=Vds SaveCurrent=1 
+V_Source:SRC4  N__6 0 Type="V_DC" Vdc=Vgs SaveCurrent=1 
+
+Cd=1.5005295e-11 tune{ 1.765e-12 to 1.5005295e-11 by 3.53e-13 }
+dl=90
+C:C2  N__2 N__15 C=Cd 
+C:C1  N__11 N__2 C=Cd 
+R:R1  N__2 0 R=15 Ohm tune{ 10 Ohm to 150 Ohm by 10 Ohm } Noise=yes 
+TLIN:TL1  N__12 N__18 Z=120 Ohm E=90 F=5 GHz 
+TLIN:TL2  N__6 N__16 Z=120 Ohm E=90 F=5 GHz 
+TLIN:TL3  N__16 N__15 Z=120 Ohm E=dl F=5 GHz 
+TLIN:TL4  N__11 N__18 Z=120 Ohm E=dl F=5 GHz 
