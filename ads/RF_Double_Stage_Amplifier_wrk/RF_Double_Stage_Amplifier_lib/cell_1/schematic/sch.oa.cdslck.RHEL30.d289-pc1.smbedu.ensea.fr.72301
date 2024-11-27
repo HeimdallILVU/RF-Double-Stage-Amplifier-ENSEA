@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      maxiseze64
+HostName                       d289-pc1.smbedu.ensea.fr
+ProcessIdentifier              72301
+ProcessCreationTime_UTC        1732693318
+ProcessCreationTime_Readable   Wed 27 Nov 2024 08:41:58 AM CET CET
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /users/maxiseze64/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/RF_Double_Stage_Amplifier_wrk/RF_Double_Stage_Amplifier_lib/cell_1/schematic/sch.oa.cdslck
+TimeEditLocked                 Wed 27 Nov 2024 08:42:54 AM CET CET

@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="3" Version="100">
+<ADSWorkspace Revision="4" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <Library Name="ads_standard_layers_ic" />
@@ -59,7 +59,9 @@
         <Preferences Name="schematic.prf" />
         <Library Name="RF_Double_Stage_Amplifier_lib" />
         <Folder Name="Emilie" />
-        <Folder Name="Maxime" />
+        <Folder Name="Maxime">
+            <Cell Name="RF_Double_Stage_Amplifier_lib:cell_1" />
+        </Folder>
         <Folder Name="Main" />
     </Workspace>
 </ADSWorkspace>
