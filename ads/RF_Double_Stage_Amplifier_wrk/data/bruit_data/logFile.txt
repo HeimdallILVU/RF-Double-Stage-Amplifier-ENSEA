@@ -1,0 +1,33 @@
+
+hpeesofsim (*) 570.shp Jul 19 2022, MINT version 5
+    (64-bit linux built: Tue Jul 19, 2022 14:06:28 +0000)
+
+
+***** Simulation started at Wed, Nov 27 2024 11:37:34 +0100
+      Running on host: "d289-pc1.smbedu.ensea.fr"
+      In Directory: "/users/maxiseze64/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/RF_Double_Stage_Amplifier_wrk/data"
+      User: "maxiseze", Process ID: 398403
+
+Pt DC convergence is used.
+
+SP SP1[1] <RF_Double_Stage_Amplifier_lib:bruit:schematic>   freq=(2.5 GHz->5.5 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    The simulation temperature (25.0 C) is not the same as the IEEE standard
+    noise temperature (290 K or 16.85 C) in the noise analysis `SP1'.
+    If the simulation temperature is not equal to the IEEE standard temperature,
+    then the loss and the noise figure will not agree for a passive circuit.
+    The `Temp' parameter on the Options item can be set to 16.85 C to
+    eliminate this warning message.
+
+
+
+Resource usage:
+    User time                 =     0.24 seconds.
+    System time               =     0.06 seconds.
+    Total CPU time            =     0.30 seconds.
+    Simulation stopwatch time =     0.24 seconds.
+    Total stopwatch time      =     1.24 seconds.
+
+    Physical memory used: 138 MBytes.
+    Incremental virtual memory (data only) used:  35.3 MBytes.
+
