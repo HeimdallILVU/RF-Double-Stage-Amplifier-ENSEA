@@ -10,7 +10,7 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2024-11-27T08:34:29Z");
+	set(ddoId, "FileModifiedDateAndTime", "2024-12-11T07:18:00Z");
 	set(ddoId, "FileCreatedDateAndTime", "2024-11-27T08:12:07Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
@@ -425,11 +425,11 @@ traceID = get_new(goId0, "Trace", "Vds[0,25]", "", "");
 	set(ddoId, "UpdateAllExpressions", TRUE);
 	set(ddoId, "EnableExpressionUpdates", TRUE);
 
-ddWinId = get_new(ddsId, "Window", 193, 108, 1536, 864);
+ddWinId = get_new(ddsId, "Window", 192, 109, 1536, 864);
 	set(ddWinId, "Object", ddoId);
 	set(ddWinId, "CurrentPage", 1513946128);
-	set(ddWinId, "PageViewRect_1513946128", list(891, 7186, 13183, 579));
-	set(ddWinId, "Frame", list(193, 108, 1536, 864));
+	set(ddWinId, "PageViewRect_1513946128", list(888, 7188, 13184, 579));
+	set(ddWinId, "Frame", list(192, 109, 1536, 864));
 	set(ddWinId, "Maximized", FALSE);
 	set(ddWinId, "ForegroundColor", 0);
 	set(ddWinId, "BackgroundColor", 8);

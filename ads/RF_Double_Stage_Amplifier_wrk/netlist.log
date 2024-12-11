@@ -1,7 +1,7 @@
-; Top Design: "RF_Double_Stage_Amplifier_lib:double_stage:schematic"
+; Top Design: "RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Partial:schematic"
 ; Netlisted using Hierarchy Policy: "Standard"
 
-Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="RF_Double_Stage_Amplifier_lib:double_stage:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Partial:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
 ; Library Name: test_model_ce3512k2_lib
 ; Cell Name: CEL_CE3512K2_modele
 ; View Name: schematic
@@ -17,17 +17,19 @@ TLINP:TL1  G N__9 Z=79.3 Ohm L=8.07 mm K=1 A=0.0001 F=1 GHz TanD=0.002 Mur=1 Tan
 TLINP:TL2  N__14 D Z=12.93 Ohm L=242.4 um K=1 A=0.0001 F=1 GHz TanD=0.002 Mur=1 TanM=0 Sigma=0 DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz 
 end CEL_CE3512K2_modele
 
-CEL_CE3512K2_modele:X1  N__1 N__18 0 0 
+CEL_CE3512K2_modele:X1  N__41 N__3 0 0 
+CEL_CE3512K2_modele:X2  N__6 N__50 0 0 
+
+Optim:"Optim1" OptimType="hybrid" ErrorForm="L2" SAProgressReport=0 MaxIters=4000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 SANumTrialsPerIter=10 NumShootsPerIter=20 SATempControlAlpha=0.8 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
+
 
 Vgs=-0.3
 Vds=2.5
-Short:DC_Block1  N__0 N__1 Mode=1 
-Short:DC_Feed1  N__4 N__1 Mode=-1 
-V_Source:SRC1  N__4 0 Type="V_DC" Vdc=Vgs SaveCurrent=1 
+model MSub1 MSUB H=0.762 mm Er=2.55 Mur=1 Cond=5.8e7 Hu=1e+36 um T=35 um TanD=2e-4 Rough=0 um DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
 S_Param:SP1 CalcS=yes CalcY=no CalcZ=yes GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=yes SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
 SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
 
-SweepPlan: SP1_stim Start=0.1 GHz Stop=9 GHz Step=0.1 GHz 
+SweepPlan: SP1_stim Start=4.5 GHz Stop=5.5 GHz Step=0.25 GHz 
 
 OutputPlan:SP1_Output \
       Type="Output" \
@@ -45,24 +47,62 @@ DC_WriteFinalSolution=no TopologyCheckMessages=no GPU=no doDeltaAC=no ReduceSPor
 ReduceSPortRatio=0.5 WarnSOA=yes MaxWarnSOA=5 Census=no MinNodalR=1e-2 Ohm  \
 LargeCapThreshold=1e-3 F EnableAssertChecks=no EnableSpareRemoval=no 
 
-aele MaxGain1=max_gain(S);
-aele StabFact1=stab_fact(S);
-Port:Term1  N__0 0 Num=1 Z=50 Ohm Noise=yes 
-Short:DC_Block2  N__10 N__8 Mode=1 
-Short:DC_Feed2  N__5 N__10 Mode=-1 
-V_Source:SRC2  N__3 0 Type="V_DC" Vdc=Vds SaveCurrent=1 
-Short:Id  N__3 N__5 Mode=0 SaveCurrent=yes 
-Port:Term2  N__8 0 Num=2 Z=50 Ohm Noise=yes 
-CEL_CE3512K2_modele:X2  N__16 N__10 0 0 
-V_Source:SRC3  N__12 0 Type="V_DC" Vdc=Vds SaveCurrent=1 
-V_Source:SRC4  N__6 0 Type="V_DC" Vdc=Vgs SaveCurrent=1 
+OptimGoal:OptimGoal3 Expr="dB(S(2,2))" SimInstanceName="SP1" Weight=10 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal3_limit1" 
+SpecLimitLine:"OptimGoal3_limit1" Type="LessThan" Max=-12 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=4.5e+09 IndepMax[1]=5.5e+09 
+OptimGoal:OptimGoal2 Expr="dB(S(1,1))" SimInstanceName="SP1" Weight=100 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal2_limit1" 
+SpecLimitLine:"OptimGoal2_limit1" Type="LessThan" Max=-12 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=4.5e+09 IndepMax[1]=5.5e+09 
+OptimGoal:OptimGoal1 Expr="dB(S(2,1))" SimInstanceName="SP1" Weight=10000 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal1_limit1" 
+SpecLimitLine:"OptimGoal1_limit1" Type="Inside" Min=28 Max=28.5 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=4.5e+09 IndepMax[1]=5.5e+09 
+OptimGoal:OptimGoal4 Expr="nf(2)" SimInstanceName="SP1" Weight=0.001 \
+IndepVar[1]="freq" \
+SpecLimitLine[1]="OptimGoal4_limit1" 
+SpecLimitLine:"OptimGoal4_limit1" Type="LessThan" Max=5 Weight=1 \
+IndepVar[1]="freq" IndepMin[1]=4.5e+09 IndepMax[1]=5.5e+09 
+Port:Term2  N__64 0 Num=2 Z=50 Ohm Noise=yes 
+Short:DC_Feed3  N__53 N__61 Mode=-1 
+Short:DC_Feed4  N__58 N__56 Mode=-1 
+V_Source:SRC3  N__53 0 Type="V_DC" Vdc=Vds SaveCurrent=1 
+V_Source:SRC4  N__58 0 Type="V_DC" Vdc=Vgs SaveCurrent=1 
+R:R2  N__60 N__56 R=50 Ohm Noise=yes 
+R:R1  N__59 N__61 R=50 Ohm Noise=yes 
+C:C2  N__59 0 C=352.958 pF 
+C:C3  N__61 0 C=1.0 nF 
+C:C1  N__3 N__6 C=95.5667 pF opt{ 0.01 pF to 1000 pF } 
+C:C4  N__60 0 C=705.866 fF 
+C:C5  N__56 0 C=1.0 nF 
+TLIN:TL1  N__3 N__59 Z=100 Ohm E=90 F=5 GHz 
+TLIN:TL2  N__6 N__60 Z=34.6544 Ohm E=90 F=5 GHz 
+L:L5  N__63 N__26 L=2.05431 nH R=1e-12 Ohm Noise=yes  
+L:L4  N__63 N__50 L=872.47 pH R=1e-12 Ohm Noise=yes  
+V_Source:SRC2  N__44 0 Type="V_DC" Vdc=Vds SaveCurrent=1 
+Short:Id  N__44 N__26 Mode=0 SaveCurrent=yes 
+C:C8  N__64 N__63 C=328.145 pF 
+C:C6  N__15 0 C=10 fF opt{ 10 fF to 1e+06 fF } 
+Port:Term1  N__15 0 Num=1 Z=50 Ohm Noise=yes 
+MLIN2:TL3  N__36 N__68 Subst="MSub1" W=tee1w1 L=200 um opt{ 200 um to 10000 um } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL4  N__29 N__13 Subst="MSub1" W=tee1w2 L=5.73802 mm opt{ 0.2 mm to 10 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL5  N__28 N__49 Subst="MSub1" W=tee1w3 L=2.23924 mm opt{ 0.2 mm to 10 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MTEE_ADS:Tee1  N__36 N__49 N__29 Subst="MSub1" W1=tee1w1 W2=tee1w2 W3=tee1w3 
 
-Cd=1.5005295e-11 tune{ 1.765e-12 to 1.5005295e-11 by 3.53e-13 }
-dl=90
-C:C2  N__2 N__15 C=Cd 
-C:C1  N__11 N__2 C=Cd 
-R:R1  N__2 0 R=15 Ohm tune{ 10 Ohm to 150 Ohm by 10 Ohm } Noise=yes 
-TLIN:TL1  N__12 N__18 Z=120 Ohm E=90 F=5 GHz 
-TLIN:TL2  N__6 N__16 Z=120 Ohm E=90 F=5 GHz 
-TLIN:TL3  N__16 N__15 Z=120 Ohm E=dl F=5 GHz 
-TLIN:TL4  N__11 N__18 Z=120 Ohm E=dl F=5 GHz 
+tee1w1=9.99991 mm opt{ 0.2 mm to 10 mm }
+tee1w2=427.622 um opt{ 200 um to 10000 um }
+tee1w3=6.18354 mm opt{ 0.2 mm to 10 mm }
+
+step1w2=508.761 um opt{ 200 um to 10000 um }
+MSTEP:Step1  N__68 N__70 Subst="MSub1" W1=tee1w1 um W2=step1w2 
+MLIN2:TL6  N__70 N__41 Subst="MSub1" W=step1w2 L=4.00225 mm opt{ 4 mm to 10 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+V_Source:SRC5  N__62 0 Type="V_DC" Vdc=Vgs SaveCurrent=1 
+MSTEP:Step2  N__54 N__13 Subst="MSub1" W1=step2w1 W2=tee1w2 
+MLIN2:TL7  N__62 N__54 Subst="MSub1" W=step2w1 L=4 mm opt{ 4 mm to 10 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+
+step2w1=896.606 um opt{ 799.19 um to 10000 um }
+MCLIN:CLin1  N__15 N__14 N__28 N__72 Subst="MSub1" W=205.942 um opt{ 200 um to 10000 um } S=516.526 um opt{ 200 um to 10000 um } L=10 mm opt{ 0.2 mm to 30 mm } 
