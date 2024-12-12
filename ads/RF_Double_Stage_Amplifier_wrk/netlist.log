@@ -1,7 +1,7 @@
-; Top Design: "RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line:schematic"
+; Top Design: "RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Inter:schematic"
 ; Netlisted using Hierarchy Policy: "Standard"
 
-Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=yes TopDesignName="RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Inter:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
 ; Library Name: test_model_ce3512k2_lib
 ; Cell Name: CEL_CE3512K2_modele
 ; View Name: schematic
@@ -17,36 +17,15 @@ TLINP:TL1  G N__9 Z=79.3 Ohm L=8.07 mm K=1 A=0.0001 F=1 GHz TanD=0.002 Mur=1 Tan
 TLINP:TL2  N__14 D Z=12.93 Ohm L=242.4 um K=1 A=0.0001 F=1 GHz TanD=0.002 Mur=1 TanM=0 Sigma=0 DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz 
 end CEL_CE3512K2_modele
 
-CEL_CE3512K2_modele:X1  N__1 N__3 0 0 
-CEL_CE3512K2_modele:X2  N__6 N__50 0 0 
-MLIN2:TL9  N__71 N__49 Subst="MSub1" W=2.09 mm L=8.13238 mm opt{ 4 mm to 10 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MSTEP:Step2  N__62 N__10 Subst="MSub1" W1=step2w1 W2=tee1w2 
-MSTEP:Step5  N__49 N__66 Subst="MSub1" W1=2.09 mm W2=step4w1 
-MLIN2:TL38  N__50 N__2 Subst="MSub1" W=2090.560000 um L=13.0545 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MLIN2:TL30  N__47 N__16 Subst="MSub1" W=2090.560000 um L=6.35295 mm opt{ 0.2 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MTEE_ADS:Tee1  N__54 N__69 N__36 Subst="MSub1" W1=tee1w1 W2=tee1w2 W3=tee1w3 
-Short:Id  N__7 N__14 Mode=0 SaveCurrent=yes 
-MLIN2:TL31  N__12 N__57 Subst="MSub1" W=2090.560000 um L=5.76143 mm opt{ 0.2 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MLIN2:TL4  N__36 N__10 Subst="MSub1" W=tee1w2 L=9.36852 mm opt{ 0.2 mm to 10 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MLIN2:TL26  N__67 N__56 Subst="MSub1" W=2090.560000 um L=19.1665 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MLIN2:TL25  N__38 N__61 Subst="MSub1" W=2090.560000 um L=12.0647 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MLIN2:TL39  N__66 N__72 Subst="MSub1" W=step4w1 L=9.71401 mm opt{ 0.2 mm to 10 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-
-tee9w3=50 um
-
-Optim:"Optim1" OptimType="hybrid" ErrorForm="L2" SAProgressReport=0 MaxIters=4000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 SANumTrialsPerIter=10 NumShootsPerIter=20 SATempControlAlpha=0.8 CoranaSkip=0.0 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
-
+CEL_CE3512K2_modele:X2  N__40 N__8 0 0 
+CEL_CE3512K2_modele:X1  N__16 N__33 0 0 
+V_Source:SRC4  N__19 0 Type="V_DC" Vdc=Vgs SaveCurrent=1 
 
 Vgs=-0.3
 Vds=2.5
-model MSub1 MSUB H=0.762 mm Er=2.55 Mur=1 Cond=5.8e7 Hu=1e+36 um T=35 um TanD=2e-4 Rough=0 um DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
-Short:DC_Feed3  N__17 N__12 Mode=-1 
-Short:DC_Feed4  N__18 N__16 Mode=-1 
-MSTEP:Step1  N__4 N__68 Subst="MSub1" W1=tee1w1 um W2=step1w2 
-V_Source:SRC2  N__7 0 Type="V_DC" Vdc=Vds SaveCurrent=1 
-V_Source:SRC3  N__17 0 Type="V_DC" Vdc=Vds SaveCurrent=1 
-V_Source:SRC4  N__18 0 Type="V_DC" Vdc=Vgs SaveCurrent=1 
-S_Param:SP1 CalcS=yes CalcY=no CalcZ=yes GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=yes SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
+Short:DC_Feed4  N__19 N__20 Mode=-1 
+Short:DC_Feed5  N__3 N__16 Mode=-1 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=yes GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=yes SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
 SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
 
 SweepPlan: SP1_stim Start=4.5 GHz Stop=5.5 GHz Step=0.1 GHz 
@@ -60,6 +39,10 @@ OutputPlan:SP1_Output \
 
 #load "python","LinearCollapse"
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+Short:DC_Feed6  N__12 N__8 Mode=-1 
+V_Source:SRC3  N__2 0 Type="V_DC" Vdc=Vds SaveCurrent=1 
+Short:Id  N__18 N__12 Mode=0 SaveCurrent=yes 
+V_Source:SRC2  N__18 0 Type="V_DC" Vdc=Vds SaveCurrent=1 
 
 Options:Options1 Temp=16.85 Tnom=16.85 TopologyCheck=yes ForceS_Params=yes GiveAllWarnings=yes  \
 MaxWarnings=10 SaveBranchCurrents=no OutputInternalNodes=no ForceM_Params=yes DC_ReadInitialGuess=no  \
@@ -67,90 +50,31 @@ DC_WriteFinalSolution=no TopologyCheckMessages=no GPU=no doDeltaAC=no ReduceSPor
 ReduceSPortRatio=0.5 WarnSOA=yes MaxWarnSOA=5 Census=no MinNodalR=1e-2 Ohm  \
 LargeCapThreshold=1e-3 F EnableAssertChecks=no EnableSpareRemoval=no 
 
-MLIN2:TL29  N__14 N__15 Subst="MSub1" W=2090.560000 um L=6.25917 mm opt{ 0.2 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MLIN2:TL36  N__30 N__6 Subst="MSub1" W=2090.560000 um L=26.0623 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-R:R1  N__61 N__25 R=50 Ohm Noise=yes 
-MLIN2:TL3  N__54 N__4 Subst="MSub1" W=tee1w1 L=267.858 um opt{ 200 um to 10000 um } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MLIN2:TL34  N__58 N__23 Subst="MSub1" W=2090.560000 um L=253.513 um opt{ 100 um to 30000 um } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MLIN2:TL35  N__20 N__0 Subst="MSub1" W=2090.560000 um L=21.8082 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MSTEP:Step3  N__9 N__29 Subst="MSub1" W1=step3w1 W2=tee1w3 
-MCLIN:CLin1  N__28 N__11 N__9 N__55 Subst="MSub1" W=step3w1 S=273.86 um opt{ 200 um to 10000 um } L=11.7692 mm opt{ 0.2 mm to 30 mm } 
-MLIN2:TL28  N__13 N__8 Subst="MSub1" W=2090.560000 um L=17.9108 mm opt{ 0.2 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MLIN2:TL5  N__29 N__69 Subst="MSub1" W=tee1w3 L=6.15411 mm opt{ 0.2 mm to 10 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+aele MaxGain1=max_gain(S);
 aele StabFact1=stab_fact(S);
-MLIN2:TL33  N__3 N__59 Subst="MSub1" W=2090.560000 um L=12.4895 mm opt{ 0.2 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-R:R2  N__56 N__48 R=50 Ohm Noise=yes 
-OptimGoal:OptimGoal3 Expr="dB(S(2,2))" SimInstanceName="SP1" Weight=1 \
+Port:Term1  N__11 0 Num=1 Z=50 Ohm Noise=yes 
+Port:Term2  N__14 0 Num=2 Z=50 Ohm Noise=yes 
+Short:DC_Feed3  N__2 N__27 Mode=-1 
+Short:DC_Block1  N__11 N__16 Mode=1 
+OptimGoal:OptimGoal6 Expr="MaxGain1" SimInstanceName="SP1" Weight=100 \
 IndepVar[1]="freq" \
-SpecLimitLine[1]="OptimGoal3_limit1" 
-SpecLimitLine:"OptimGoal3_limit1" Type="LessThan" Max=-12 Weight=1 \
+SpecLimitLine[1]="OptimGoal6_limit1" 
+SpecLimitLine:"OptimGoal6_limit1" Type="Inside" Min=28.75 Max=29.25 Weight=1 \
 IndepVar[1]="freq" IndepMin[1]=4.5e+09 IndepMax[1]=5.5e+09 
-OptimGoal:OptimGoal2 Expr="dB(S(1,1))" SimInstanceName="SP1" Weight=1 \
-IndepVar[1]="freq" \
-SpecLimitLine[1]="OptimGoal2_limit1" 
-SpecLimitLine:"OptimGoal2_limit1" Type="LessThan" Max=-12 Weight=1 \
-IndepVar[1]="freq" IndepMin[1]=4.5e+09 IndepMax[1]=5.5e+09 
-OptimGoal:OptimGoal1 Expr="dB(S(2,1))" SimInstanceName="SP1" Weight=100 \
-IndepVar[1]="freq" \
-SpecLimitLine[1]="OptimGoal1_limit1" 
-SpecLimitLine:"OptimGoal1_limit1" Type="Inside" Min=28 Max=28.5 Weight=1 \
-IndepVar[1]="freq" IndepMin[1]=4.5e+09 IndepMax[1]=5.5e+09 
-OptimGoal:OptimGoal4 Expr="nf(2)" SimInstanceName="SP1" Weight=0.001 \
-IndepVar[1]="freq" \
-SpecLimitLine[1]="OptimGoal4_limit1" 
-SpecLimitLine:"OptimGoal4_limit1" Type="LessThan" Max=5 Weight=1 \
-IndepVar[1]="freq" IndepMin[1]=4.5e+09 IndepMax[1]=5.5e+09 
-MSTEP:Step4  N__72 N__28 Subst="MSub1" W1=step4w1 W2=step3w1 
-Port:Term2  N__8 0 Num=2 Z=50 Ohm Noise=yes 
-V_Source:SRC5  N__70 0 Type="V_DC" Vdc=Vgs SaveCurrent=1 
+V_Source:SRC5  N__3 0 Type="V_DC" Vdc=Vgs SaveCurrent=1 
+Short:DC_Block2  N__8 N__14 Mode=1 
 
-tee1w1=9.99998 mm opt{ 0.2 mm to 10 mm }
-tee1w2=9.99433 mm opt{ 0.2 mm to 10 mm }
-tee1w3=7.03329 mm opt{ 0.2 mm to 10 mm }
+Optim:"Optim1" OptimType="hpVMO" ErrorForm="L2" SAProgressReport=0 MaxIters=4000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 SANumTrialsPerIter=10 NumShootsPerIter=20 SATempControlAlpha=0.8 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
 
-step2w1=2.09 mm
-
-step4w1=2.41041 mm opt{ 0.2 mm to 10 mm }
-step3w1=395.915 um opt{ 200 um to 10000 um }
-MLIN2:TL22  N__2 N__44 Subst="MSub1" W=332.736000 um L=17.9995 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-
-step1w2=1.19172 mm opt{ 0.2 mm to 10 mm }
-MLIN2:TL8  N__31 N__32 Subst="MSub1" W=3803.890000 um L=10059.700 um Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MTEE_ADS:Tee3  N__38 N__32 N__35 Subst="MSub1" W1=2090.560000 um W2=5460.530000 um W3=3803.890000 um 
-MLIN2:TL18  N__42 N__40 Subst="MSub1" W=2090.560000 um L=29.5835 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MLIN2:TL10  N__25 N__39 Subst="MSub1" W=2090.560000 um L=8.82628 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MTEE_ADS:Tee4  N__57 N__39 N__42 Subst="MSub1" W1=2090.560000 um W2=2090.560000 um W3=2090.560000 um 
-MLIN2:TL15  N__48 N__53 Subst="MSub1" W=2090.560000 um L=25.9577 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MLOC2:TL12  N__35 Subst="MSub1" W=5460.530000 um L=24.2905 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-C:C9  N__40 N__46 C=1.0 nF 
-MLIN2:TL16  N__52 N__51 Subst="MSub1" W=3803.890000 um L=10059.700 um Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MTEE_ADS:Tee5  N__47 N__53 N__60 Subst="MSub1" W1=2090.560000 um W2=2090.560000 um W3=2090.560000 um 
-MTEE_ADS:Tee6  N__67 N__51 N__43 Subst="MSub1" W1=2090.560000 um W2=5460.530000 um W3=3803.890000 um 
-MLOC2:TL17  N__43 Subst="MSub1" W=5460.530000 um L=28.0419 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MTEE_ADS:Tee7  N__30 N__0 N__52 Subst="MSub1" W1=2090.560000 um W2=3803.890000 um W3=2090.560000 um 
-MTEE_ADS:Tee8  N__58 N__59 N__31 Subst="MSub1" W1=2090.560000 um W2=3803.890000 um W3=2090.560000 um 
-MLIN2:TL19  N__46 N__37 Subst="MSub1" W=2090.560000 um L=975.538 um opt{ 100 um to 30000 um } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-VIAGND:V3  N__37 Subst="MSub1" D=200 um T=0.15 um Rho=1.0 W=400 um 
-VIAGND:V2  N__34 Subst="MSub1" D=200 um T=0.15 um Rho=1.0 W=400 um 
-C:C10  N__45 N__33 C=1.0 nF 
-MLIN2:TL20  N__33 N__34 Subst="MSub1" W=2090.560000 um L=26.0218 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MLIN2:TL21  N__60 N__45 Subst="MSub1" W=2090.560000 um L=8.46186 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MTEE_ADS:Tee9  N__44 N__26 N__63 Subst="MSub1" W1=332.736000 um W2=332.736000 um W3=tee9w3 
-MLIN2:TL23  N__15 N__63 Subst="MSub1" W=332.736000 um L=23 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MCLIN:CLin2  N__65 N__26 N__64 N__13 Subst="MSub1" W=tee9w3 S=276.406 um opt{ 10 um to 30000 um } L=8.3487 mm opt{ 0.1 mm to 30 mm } 
-MLIN2:TL6  N__68 N__1 Subst="MSub1" W=step1w2 L=4.86246 mm opt{ 4 mm to 10 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-MLIN2:TL7  N__70 N__62 Subst="MSub1" W=step2w1 L=9.89765 mm opt{ 4 mm to 10 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
-Port:Term1  N__71 0 Num=1 Z=50 Ohm Noise=yes 
-OptimGoal:OptimGoal5 Expr="StabFact1" SimInstanceName="SP3" Weight=100000 \
+OptimGoal:OptimGoal5 Expr="StabFact1" SimInstanceName="SP3" Weight=1e+06 \
 IndepVar[1]="freq" \
 SpecLimitLine[1]="OptimGoal5_limit1" 
-SpecLimitLine:"OptimGoal5_limit1" Type="GreaterThan" Min=2 Weight=1 \
+SpecLimitLine:"OptimGoal5_limit1" Type="GreaterThan" Min=1 Weight=1 \
 IndepVar[1]="freq" IndepMin[1]=0 IndepMax[1]=5.5e+09 
-C:C1  N__23 N__20 C=950.959 pF opt{ 0.01 pF to 1000 pF } 
-S_Param:SP3 CalcS=yes CalcY=no CalcZ=yes GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=yes SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
+S_Param:SP3 CalcS=yes CalcY=no CalcZ=yes GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=yes SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
 SweepVar="freq" SweepPlan="SP3_stim" OutputPlan="SP3_Output" 
 
-SweepPlan: SP3_stim Start=0.01 GHz Stop=4.5 GHz Step=0.05 GHz 
+SweepPlan: SP3_stim Start=0.01 GHz Stop=5.5 GHz Step=0.15 GHz 
 
 OutputPlan:SP3_Output \
       Type="Output" \
@@ -161,3 +85,47 @@ OutputPlan:SP3_Output \
 
 #load "python","LinearCollapse"
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+MICAP1:C11  N__47 N__10 Subst="MSub1" W=200 um noopt{ 200 um to 30000 um } G=200 um Ge=28.1604 mm opt{ 0.2 mm to 30 mm } L=7.13634 mm opt{ 0.2 mm to 30 mm } Np=3 Wt=3.31945 mm opt{ 0.2 mm to 30 mm } Wf=29.7265 mm noopt{ 0.2 mm to 30 mm } 
+model MSub1 MSUB H=0.762 mm Er=2.55 Mur=1 Cond=5.8e7 Hu=1e+36 um T=35 um TanD=2e-4 Rough=0 um DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+MLIN2:TL3  N__7 N__44 Subst="MSub1" W=tee10w3 L=10.882100 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL4  N__1 N__41 Subst="MSub1" W=tee11w3 L=10.882100 mm Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLOC2:TL5  N__21 Subst="MSub1" W=tee3w3 L=2.06787 mm opt{ 0.2 mm to 10 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+VIAGND:V1  N__4 Subst="MSub1" D=250 um T=0.15 um Rho=1.0 W=400 um 
+R:R2  N__9 N__23 R=50 Ohm Noise=yes 
+MLIN2:TL10  N__23 N__37 Subst="MSub1" W=2090.560000 um L=23.5835 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL25  N__13 N__9 Subst="MSub1" W=2090.560000 um L=18.1347 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MTEE_ADS:Tee3  N__13 N__7 N__21 Subst="MSub1" W1=2090.560000 um W2=tee10w3 W3=tee3w3 
+MLOC2:TL6  N__15 Subst="MSub1" W=tee4w3 L=921.327 um opt{ 200 um to 10000 um } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+R:R3  N__22 N__28 R=50 Ohm Noise=yes 
+MLIN2:TL27  N__24 N__22 Subst="MSub1" W=2090.560000 um L=200 um opt{ 200 um to 30000 um } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL28  N__28 N__26 Subst="MSub1" W=2090.560000 um L=6.43534 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MTEE_ADS:Tee4  N__24 N__1 N__15 Subst="MSub1" W1=2090.560000 um W2=tee11w3 W3=tee4w3 
+MLIN2:TL31  N__27 N__29 Subst="MSub1" W=2090.560000 um L=6.51527 mm opt{ 0.2 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MTEE_ADS:Tee5  N__29 N__26 N__25 Subst="MSub1" W1=2090.560000 um W2=2090.560000 um W3=2090.560000 um 
+C:C3  N__31 N__0 C=1.0 nF 
+MLIN2:TL18  N__25 N__31 Subst="MSub1" W=2090.560000 um L=14.6206 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL32  N__4 N__0 Subst="MSub1" W=2090.560000 um L=5.61945 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+C:C12  N__30 N__32 C=1.0 nF 
+MLIN2:TL33  N__5 N__32 Subst="MSub1" W=2090.560000 um L=15.3648 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+VIAGND:V2  N__5 Subst="MSub1" D=250 um T=0.15 um Rho=1.0 W=400 um 
+MLIN2:TL34  N__36 N__30 Subst="MSub1" W=2090.560000 um L=28.8656 mm opt{ 0.1 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MTEE_ADS:Tee6  N__37 N__49 N__36 Subst="MSub1" W1=2090.560000 um W2=2090.560000 um W3=2090.560000 um 
+MLIN2:TL39  N__33 N__48 Subst="MSub1" W=tee11w2 L=5.95014 mm opt{ 0.2 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL40  N__42 N__47 Subst="MSub1" W=tee11w1 L=396.406 um opt{ 200 um to 30000 um } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL41  N__10 N__43 Subst="MSub1" W=tee10w2 L=13.155 mm opt{ 0.2 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MLIN2:TL42  N__35 N__40 Subst="MSub1" W=tee10w1 L=23.0589 mm opt{ 0.2 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 
+MTEE_ADS:Tee10  N__35 N__43 N__44 Subst="MSub1" W1=tee10w1 W2=tee10w2 W3=tee10w3 
+MTEE_ADS:Tee11  N__42 N__48 N__41 Subst="MSub1" W1=tee11w1 W2=tee11w2 W3=tee11w3 
+
+tee11w1=7.35183 mm opt{ 0.2 mm to 10 mm }
+tee11w2=9.96546 mm opt{ 0.2 mm to 10 mm }
+tee11w3=2.04389 mm opt{ 0.2 mm to 10 mm }
+
+tee10w1=5.80549 mm opt{ 0.2 mm to 10 mm }
+tee10w2=9.05242 mm opt{ 0.2 mm to 10 mm }
+tee10w3=4.99635 mm opt{ 0.2 mm to 10 mm }
+
+tee4w3=4.12221 mm opt{ 0.2 mm to 10 mm }
+
+tee3w3=1.54624 mm opt{ 0.2 mm to 10 mm }
+MLIN2:TL43  N__20 N__49 Subst="MSub1" W=2090.560000 um L=16.8465 mm opt{ 0.2 mm to 30 mm } Wall1=1.0E+30 um Wall2=1.0E+30 um Mod=1 

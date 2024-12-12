@@ -1,0 +1,186 @@
+
+hpeesofsim (*) 570.shp Jul 19 2022, MINT version 5
+    (64-bit linux built: Tue Jul 19, 2022 14:06:28 +0000)
+
+
+***** Simulation started at Thu, Dec 12 2024 10:59:19 +0100
+      Running on host: "d289-pc2.smbedu.ensea.fr"
+      In Directory: "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/RF_Double_Stage_Amplifier_wrk/data"
+      User: "jerefleu", Process ID: 6121
+
+
+OPTIM Optim1[1] <RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Inter:schematic>  optIter=(0->4000)
+Pt DC convergence is used.
+
+SP Optim1[1].SP1[0] <RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Inter:schematic>  optIter=0  freq=(4.5 GHz->5.5 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.009873) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W2' in `Tee11'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.008785) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W3' in `Tee11'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(44.526841) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee11'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.009945) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W1' in `Tee10'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.008454) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W3' in `Tee4'
+
+
+
+SP Optim1[1].SP3[0] <RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Inter:schematic>  optIter=0  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #0:
+  CurrentEF: 1731330755507.03
+  Optimization variables:
+    tee10w1 = 9.945010000000001e-03
+    tee10w2 = 6.0025e-03
+    tee10w3 = 3.78499e-03
+    tee11w1 = 221.733e-06
+    tee11w2 = 9.873069999999999e-03
+    tee11w3 = 8.78496e-03
+    tee3w2 = 1.88549e-03
+    tee4w2 = 5.9266e-03
+    TL10.L = 16.1874e-03
+    TL18.L = 28.3292e-03
+    TL25.L = 25.5506e-03
+    TL27.L = 1.5847e-03
+    TL28.L = 21.1718e-03
+    TL31.L = 19.0795e-03
+    TL32.L = 29.6197e-03
+    TL33.L = 6.01445e-03
+    TL34.L = 17.0207e-03
+    TL39.L = 25.4192e-03
+    TL40.L = 1.09692e-03
+    TL41.L = 12.7397e-03
+    TL42.L = 15.0158e-03
+    TL43.L = 25.8467e-03
+    TL5.L = 6.254e-03
+    TL6.L = 4.55933e-03
+
+SP Optim1[1].SP1[1] <RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Inter:schematic>  optIter=1  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Optim1[1].SP3[1] <RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Inter:schematic>  optIter=1  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1:
+  CurrentEF: 1731330755507.07
+  Optimization variables:
+    tee10w1 = 9.945010000000001e-03
+    tee10w2 = 6.0025e-03
+    tee10w3 = 3.78499e-03
+    tee11w1 = 221.733e-06
+    tee11w2 = 9.873069999999999e-03
+    tee11w3 = 8.78496e-03
+    tee3w2 = 1.88549e-03
+    tee4w2 = 5.9266e-03
+    TL10.L = 16.1874e-03
+    TL18.L = 28.3292e-03
+    TL25.L = 25.5506e-03
+    TL27.L = 1.5847e-03
+    TL28.L = 21.1718e-03
+    TL31.L = 19.0795e-03
+    TL32.L = 29.6197e-03
+    TL33.L = 6.01445e-03
+    TL34.L = 17.0207e-03
+    TL39.L = 25.4192e-03
+    TL40.L = 1.09692e-03
+    TL41.L = 12.7397e-03
+    TL42.L = 15.0158e-03
+    TL43.L = 25.8467e-03
+    TL5.L = 6.254e-03
+    TL6.L = 4.55933e-03
+
+SP Optim1[1].SP1[2] <RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Inter:schematic>  optIter=2  freq=(4.5 GHz->5.5 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.010000) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W3' in `Tee11'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(13.620775) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee11'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.008480) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W1' in `Tee10'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(7.697404) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee4'
+
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.007812) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W2' in `Tee3'
+
+
+
+SP Optim1[1].SP3[2] <RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Inter:schematic>  optIter=2  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #2:
+  CurrentEF: 88874106.6617974
+  Optimization variables:
+    tee10w1 = 8.47973635488768e-03
+    tee10w2 = 5.317474693861765e-03
+    tee10w3 = 9.557839140573537e-03
+    tee11w1 = 734.1536830471661e-06
+    tee11w2 = 770.027813509271e-06
+    tee11w3 = 9.999742454009962e-03
+    tee3w2 = 7.811648194777622e-03
+    tee4w2 = 1.098291129787686e-03
+    TL10.L = 958.0271189119344e-06
+    TL18.L = 4.741901503152088e-03
+    TL25.L = 29.94050956397577e-03
+    TL27.L = 14.95628055724633e-03
+    TL28.L = 29.67754118021793e-03
+    TL31.L = 8.729724144581579e-03
+    TL32.L = 129.9702706675447e-06
+    TL33.L = 28.14982483367719e-03
+    TL34.L = 6.869382442558767e-03
+    TL39.L = 8.807702126861898e-03
+    TL40.L = 3.316522194937348e-03
+    TL41.L = 22.40168540338221e-03
+    TL42.L = 28.42687170194166e-03
+    TL43.L = 16.63509439596614e-03
+    TL5.L = 4.192835419319329e-03
+    TL6.L = 2.344312518724972e-03
+
+SP Optim1[1].SP1[3] <RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Inter:schematic>  optIter=3  freq=(4.5 GHz->5.5 GHz)
+
+
+SP Optim1[1].SP3[3] <RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Inter:schematic>  optIter=3  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #3:
+  CurrentEF: 489776.491462584
+  Optimization variables:
+    tee10w1 = 9.953179741561067e-03
+    tee10w2 = 3.390520817681553e-03
+    tee10w3 = 9.983916172135971e-03
+    tee11w1 = 241.4016174358409e-06
+    tee11w2 = 601.2445032941564e-06
+    tee11w3 = 9.335382526821893e-03
+    tee3w2 = 9.89159924484153e-03
+    tee4w2 = 725.1549000582365e-06
+    TL10.L = 531.9377719947113e-06
+    TL18.L = 12.53858795173589e-03
+    TL25.L = 29.99511008931526e-03
+    TL27.L = 248.2783163513204e-06
+    TL28.L = 23.21554503993703e-03
+    TL31.L = 10.00987356666305e-03
+    TL32.L = 103.7140925447375e-06
+    TL33.L = 28.67999985401987e-03
+    TL34.L = 5.795658014502345e-03
+    TL39.L = 12.40881819399639e-03
+    TL40.L = 989.7344511873569e-06
+    TL41.L = 22.30136599817182e-03
+    TL42.L = 3.240166998973572e-03
+    TL43.L = 19.81695009398668e-03
+    TL5.L = 8.696558810713505e-03
+    TL6.L = 1.987217833715219e-03
+
+Resource usage:
+    User time                 =    16.18 seconds.
+    System time               =     6.21 seconds.
+    Total CPU time            =    22.39 seconds.
+    Simulation stopwatch time =    39.60 seconds.
+    Total stopwatch time      =    40.45 seconds.
+
+    Physical memory used: 104 MBytes.
+    Incremental virtual memory (data only) used:  41.3 MBytes.
+

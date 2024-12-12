@@ -1,86 +1,25 @@
 
-hpeesofsim (*) 610.shp Aug 20 2024, MINT version 5
-    (64-bit windows built: Tue Aug 20, 2024 21:40:41 +0000)
+hpeesofsim (*) 570.shp Jul 19 2022, MINT version 5
+    (64-bit linux built: Tue Jul 19, 2022 14:06:28 +0000)
 
 
-***** Simulation started at Wed Dec 11 15:28:27 2024
-      Running on host: "Heimdall-Laptop"
-      In Directory: "C:\Users\jerem\Documents\git\RF-Double-Stage-Amplifier-ENSEA\ads\RF_Double_Stage_Amplifier_wrk\data"
-      Process ID: 45756
+***** Simulation started at Thu, Dec 12 2024 08:47:27 +0100
+      Running on host: "d289-pc2.smbedu.ensea.fr"
+      In Directory: "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/RF_Double_Stage_Amplifier_wrk/data"
+      User: "jerefleu", Process ID: 18939
 
-
-OPTIM Optim1[1] <RF_Double_Stage_Amplifier_lib:Impedance Matching Cascade Optim:schematic>  optIter=(0->4000)
-Optim1: Seed = 628651806
 Pt DC convergence is used.
 
-SP Optim1[1].SP1[0] <RF_Double_Stage_Amplifier_lib:Impedance Matching Cascade Optim:schematic>  optIter=0  freq=(4.5 GHz->5.5 GHz)
+SP SP2[1] <RF_Double_Stage_Amplifier_lib:Impedance Matching Cascade Optim:schematic>   freq=(100 MHz->9 GHz)
 
-
-SP Optim1[1].SP3[0] <RF_Double_Stage_Amplifier_lib:Impedance Matching Cascade Optim:schematic>  optIter=0  freq=(10 MHz->5.5 GHz)
-
-Iteration/Trial #0:
-  CurrentEF: 2.81069689652329
-  Optimization variables:
-    C1.C = 18.8838e-12
-    C2.C = 263.862e-15
-    C4.C = 241.994e-15
-    C6.C = 2.17507e-12
-    C7.C = 500.005e-12
-    C8.C = 505.005e-12
-    L1.L = 166.327e-12
-    L2.L = 329.094e-12
-    L3.L = 1.82231e-09
-    L4.L = 911.082e-12
-    L5.L = 2.78325e-09
-    TL1.Z = 96.4406
-    TL2.Z = 90.5891
-
-SP Optim1[1].SP1[13] <RF_Double_Stage_Amplifier_lib:Impedance Matching Cascade Optim:schematic>  optIter=13  freq=(4.5 GHz->5.5 GHz)
-
-
-SP Optim1[1].SP3[13] <RF_Double_Stage_Amplifier_lib:Impedance Matching Cascade Optim:schematic>  optIter=13  freq=(10 MHz->5.5 GHz)
-
-Iteration/Trial #13:
-  CurrentEF: 1.99271997066007
-  Optimization variables:
-    C1.C = 627.459741371247e-12
-    C2.C = 4.419090706942272e-12
-    C4.C = 1.352217432874915e-12
-    C6.C = 459.6701417839118e-15
-    C7.C = 292.5802962545038e-12
-    C8.C = 209.6756958175236e-12
-    L1.L = 2.720977583737246e-09
-    L2.L = 7.458496655556563e-09
-    L3.L = 98.47988180503613e-12
-    L4.L = 1.786956977158299e-09
-    L5.L = 4.504688856750261e-09
-    TL1.Z = 74.46907458574556
-    TL2.Z = 30.29465347263143
-
-SP Optim1[1].SP1[35] <RF_Double_Stage_Amplifier_lib:Impedance Matching Cascade Optim:schematic>  optIter=35  freq=(4.5 GHz->5.5 GHz)
-
-
-SP Optim1[1].SP3[35] <RF_Double_Stage_Amplifier_lib:Impedance Matching Cascade Optim:schematic>  optIter=35  freq=(10 MHz->5.5 GHz)
-
-Iteration/Trial #35:
-  CurrentEF: 1.99271997066005
-  Optimization variables:
-    C1.C = 627.459741371247e-12
-    C2.C = 4.419090706942272e-12
-    C4.C = 1.352217432874915e-12
-    C6.C = 459.6701417839118e-15
-    C7.C = 292.5802962545038e-12
-    C8.C = 209.6756958175236e-12
-    L1.L = 2.720977583737246e-09
-    L2.L = 7.458496655556563e-09
-    L3.L = 98.47988180503613e-12
-    L4.L = 1.786956977158299e-09
-    L5.L = 4.504688856750261e-09
-    TL1.Z = 74.46907458574556
-    TL2.Z = 30.29465347263143
-Gradient optimizer ends after 35 trials and 24 evaluations with EF=1.993e+00
-Optim1[1] terminated due to no more improvement 
 
 Resource usage:
-  Total stopwatch time     =   139.80 seconds.
+    User time                 =     0.45 seconds.
+    System time               =     0.08 seconds.
+    Total CPU time            =     0.53 seconds.
+    Simulation stopwatch time =     0.87 seconds.
+    Total stopwatch time      =     3.43 seconds.
+
+    Physical memory used: 98.7 MBytes.
+    Incremental virtual memory (data only) used:  35.6 MBytes.
 

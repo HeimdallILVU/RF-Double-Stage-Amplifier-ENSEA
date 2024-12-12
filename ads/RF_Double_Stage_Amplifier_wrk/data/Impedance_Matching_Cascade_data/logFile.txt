@@ -3,10 +3,10 @@ hpeesofsim (*) 570.shp Jul 19 2022, MINT version 5
     (64-bit linux built: Tue Jul 19, 2022 14:06:28 +0000)
 
 
-***** Simulation started at Wed, Dec 11 2024 08:33:44 +0100
+***** Simulation started at Thu, Dec 12 2024 08:08:52 +0100
       Running on host: "d289-pc2.smbedu.ensea.fr"
       In Directory: "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/RF_Double_Stage_Amplifier_wrk/data"
-      User: "jerefleu", Process ID: 13938
+      User: "jerefleu", Process ID: 27499
 
 Pt DC convergence is used.
 
@@ -14,12 +14,12 @@ SP SP1[1] <RF_Double_Stage_Amplifier_lib:Impedance Matching Cascade:schematic>  
 
 
 Resource usage:
-    User time                 =     0.36 seconds.
-    System time               =     0.08 seconds.
-    Total CPU time            =     0.44 seconds.
-    Simulation stopwatch time =     0.80 seconds.
-    Total stopwatch time      =     1.58 seconds.
+    User time                 =     0.67 seconds.
+    System time               =     0.20 seconds.
+    Total CPU time            =     0.87 seconds.
+    Simulation stopwatch time =     0.69 seconds.
+    Total stopwatch time      =    19.36 seconds.
 
-    Physical memory used: 94.4 MBytes.
+    Physical memory used: 96.5 MBytes.
     Incremental virtual memory (data only) used:  35.6 MBytes.
 
