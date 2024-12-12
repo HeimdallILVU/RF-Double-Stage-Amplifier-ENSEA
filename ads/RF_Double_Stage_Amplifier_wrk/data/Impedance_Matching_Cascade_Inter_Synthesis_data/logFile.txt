@@ -1,0 +1,38 @@
+
+hpeesofsim (*) 610.shp Aug 20 2024, MINT version 5
+    (64-bit windows built: Tue Aug 20, 2024 21:40:41 +0000)
+
+
+***** Simulation started at Thu Dec 12 17:33:31 2024
+      Running on host: "Heimdall-Laptop"
+      In Directory: "C:\Users\jerem\Documents\git\RF-Double-Stage-Amplifier-ENSEA\ads\RF_Double_Stage_Amplifier_wrk\data"
+      Process ID: 25656
+
+Pt DC convergence is used.
+
+SP SP2[1] <RF_Double_Stage_Amplifier_lib:Impedance Matching Cascade Inter Synthesis:schematic>   freq=(100 MHz->9 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(0.009275) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W3' in `Tee3'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(41.794100) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee3'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(0.009968) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W2' in `Tee11'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(10.285388) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee11'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(16.006182) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee10'
+
+
+
+
+Resource usage:
+  Total stopwatch time     =     1.10 seconds.
+

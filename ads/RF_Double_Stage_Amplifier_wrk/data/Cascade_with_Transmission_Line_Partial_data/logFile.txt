@@ -3,16 +3,28 @@ hpeesofsim (*) 610.shp Aug 20 2024, MINT version 5
     (64-bit windows built: Tue Aug 20, 2024 21:40:41 +0000)
 
 
-***** Simulation started at Wed Dec 11 15:02:37 2024
+***** Simulation started at Thu Dec 12 21:34:17 2024
       Running on host: "Heimdall-Laptop"
       In Directory: "C:\Users\jerem\Documents\git\RF-Double-Stage-Amplifier-ENSEA\ads\RF_Double_Stage_Amplifier_wrk\data"
-      Process ID: 14524
+      Process ID: 22592
 
 Pt DC convergence is used.
 
-SP SP3[1] <RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Partial:schematic>   freq=(10 MHz->9 GHz)
+SP SP3[1] <RF_Double_Stage_Amplifier_lib:Cascade with Transmission Line Partial:schematic>   freq=(100 kHz->9 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(0.009519) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W2' in `Tee6'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(9.908603) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee6'
+
+
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(0.008321) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W2' in `Tee1'
+
+
 
 
 Resource usage:
-  Total stopwatch time     =     0.89 seconds.
+  Total stopwatch time     =     2.67 seconds.
 

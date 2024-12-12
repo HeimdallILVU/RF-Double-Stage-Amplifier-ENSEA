@@ -1,0 +1,1481 @@
+
+hpeesofsim (*) 610.shp Aug 20 2024, MINT version 5
+    (64-bit windows built: Tue Aug 20, 2024 21:40:41 +0000)
+
+
+***** Simulation started at Thu Dec 12 19:26:15 2024
+      Running on host: "Heimdall-Laptop"
+      In Directory: "C:\Users\jerem\Documents\git\RF-Double-Stage-Amplifier-ENSEA\ads\RF_Double_Stage_Amplifier_wrk\data"
+      Process ID: 27148
+
+
+OPTIM Optim1[1] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=(0->2000)
+Optim1: Seed = 630018664
+
+SP Optim1[1].SP1[0] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=0  freq=(10 MHz->5.5 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    Value(25.725139) <= MinLegalValue(0.100000) OR Value >= MaxLegalValue(10.000000) for 'W2/W1' in `Step3'
+
+
+
+Iteration/Trial #0:
+  CurrentEF: 1208.46800819913
+  Optimization variables:
+    CLin4.L = 11.8624e-03
+    CLin4.S = 219.499e-06
+    step1w2 = 2.85502e-03
+    step3w1 = 237.582e-06
+    step4w1 = 1.91975e-03
+    tee1w1 = 6.86092e-03
+    tee1w2 = 6.11183e-03
+    tee1w3 = 4.09085e-03
+    TL3.L = 3.95235e-03
+    TL4.L = 979.0879999999999e-06
+    TL5.L = 5.59546e-03
+    TL8.L = 9.78587e-03
+
+SP Optim1[1].SP1[24] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=24  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #24:
+  CurrentEF: 230.514486746724
+  Optimization variables:
+    CLin4.L = 8.460111011928645e-03
+    CLin4.S = 394.2946075279113e-06
+    step1w2 = 2.347820524516123e-03
+    step3w1 = 306.4360527187994e-06
+    step4w1 = 1.521745932297528e-03
+    tee1w1 = 7.208542327275854e-03
+    tee1w2 = 6.144030357673444e-03
+    tee1w3 = 5.196024333703545e-03
+    TL3.L = 3.824794820730545e-03
+    TL4.L = 624.8168217811556e-06
+    TL5.L = 4.112761317675929e-03
+    TL8.L = 9.372537565690122e-03
+
+SP Optim1[1].SP1[53] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=53  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #53:
+  CurrentEF: 216.698587436746
+  Optimization variables:
+    CLin4.L = 8.149578931702038e-03
+    CLin4.S = 437.5096181182302e-06
+    step1w2 = 1.95278738514003e-03
+    step3w1 = 410.6613954771907e-06
+    step4w1 = 1.56688337601485e-03
+    tee1w1 = 7.526445570772839e-03
+    tee1w2 = 6.297833710397365e-03
+    tee1w3 = 5.000577475823864e-03
+    TL3.L = 3.882116773950401e-03
+    TL4.L = 756.4131556271542e-06
+    TL5.L = 4.055371753978102e-03
+    TL8.L = 9.219394326506529e-03
+
+SP Optim1[1].SP1[84] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=84  freq=(10 MHz->5.5 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.007935) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W1' in `Tee1'
+
+
+
+Iteration/Trial #84:
+  CurrentEF: 216.221436080143
+  Optimization variables:
+    CLin4.L = 7.785878532853541e-03
+    CLin4.S = 387.9543385652594e-06
+    step1w2 = 1.693779483611713e-03
+    step3w1 = 397.0061038995913e-06
+    step4w1 = 1.746420995573506e-03
+    tee1w1 = 7.934786466509657e-03
+    tee1w2 = 6.3741678357229e-03
+    tee1w3 = 4.944773152149529e-03
+    TL3.L = 4.158430422015737e-03
+    TL4.L = 624.1930584037784e-06
+    TL5.L = 4.395092620052463e-03
+    TL8.L = 9.720392999773496e-03
+
+SP Optim1[1].SP1[115] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=115  freq=(10 MHz->5.5 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.007964) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W1' in `Tee1'
+
+
+
+Iteration/Trial #115:
+  CurrentEF: 213.74941484288
+  Optimization variables:
+    CLin4.L = 7.357236964192652e-03
+    CLin4.S = 320.385968322242e-06
+    step1w2 = 2.225191476816597e-03
+    step3w1 = 369.6139126591062e-06
+    step4w1 = 1.887634574075576e-03
+    tee1w1 = 7.963797881633662e-03
+    tee1w2 = 6.209633094608269e-03
+    tee1w3 = 5.030855315635066e-03
+    TL3.L = 4.257436558610685e-03
+    TL4.L = 761.3480877974516e-06
+    TL5.L = 4.570233701635947e-03
+    TL8.L = 9.73442714372367e-03
+
+SP Optim1[1].SP1[123] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=123  freq=(10 MHz->5.5 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.008217) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W1' in `Tee1'
+
+
+
+Iteration/Trial #123:
+  CurrentEF: 213.686411659975
+  Optimization variables:
+    CLin4.L = 7.200552890222075e-03
+    CLin4.S = 324.1813464749715e-06
+    step1w2 = 1.831056444633052e-03
+    step3w1 = 411.8683358621773e-06
+    step4w1 = 2.015229542647835e-03
+    tee1w1 = 8.216741612939659e-03
+    tee1w2 = 6.288993770135739e-03
+    tee1w3 = 4.89117596337267e-03
+    TL3.L = 4.343092161836256e-03
+    TL4.L = 434.2818983015363e-06
+    TL5.L = 4.704576770633893e-03
+    TL8.L = 9.831929594242821e-03
+
+SP Optim1[1].SP1[436] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=436  freq=(10 MHz->5.5 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.008095) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W1' in `Tee1'
+
+
+
+Iteration/Trial #436:
+  CurrentEF: 213.578934259961
+  Optimization variables:
+    CLin4.L = 7.253619142912625e-03
+    CLin4.S = 331.6056871551043e-06
+    step1w2 = 2.017882318385191e-03
+    step3w1 = 291.8863353474255e-06
+    step4w1 = 2.169878242194922e-03
+    tee1w1 = 8.095014557662664e-03
+    tee1w2 = 6.296010614893638e-03
+    tee1w3 = 5.04634617009372e-03
+    TL3.L = 4.388517907006146e-03
+    TL4.L = 451.390654280039e-06
+    TL5.L = 4.659975460516363e-03
+    TL8.L = 450.3583018317215e-06
+
+SP Optim1[1].SP1[714] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=714  freq=(10 MHz->5.5 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.008014) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W1' in `Tee1'
+
+
+
+Iteration/Trial #714:
+  CurrentEF: 213.41905905776
+  Optimization variables:
+    CLin4.L = 7.059492797462968e-03
+    CLin4.S = 290.6051814511557e-06
+    step1w2 = 2.066968609244141e-03
+    step3w1 = 297.3321388642657e-06
+    step4w1 = 1.798423256623446e-03
+    tee1w1 = 8.013974102852111e-03
+    tee1w2 = 6.321396476718488e-03
+    tee1w3 = 5.053237030816905e-03
+    TL3.L = 4.521228248151901e-03
+    TL4.L = 243.9764340881324e-06
+    TL5.L = 4.696188305371219e-03
+    TL8.L = 376.1954541570819e-06
+
+SP Optim1[1].SP1[868] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=868  freq=(10 MHz->5.5 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.008035) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W1' in `Tee1'
+
+
+
+Iteration/Trial #868:
+  CurrentEF: 213.386818846602
+  Optimization variables:
+    CLin4.L = 7.032339632140699e-03
+    CLin4.S = 265.3174447787187e-06
+    step1w2 = 2.204879845840962e-03
+    step3w1 = 347.6959995702316e-06
+    step4w1 = 1.821631520817196e-03
+    tee1w1 = 8.035070395501533e-03
+    tee1w2 = 6.263825252291391e-03
+    tee1w3 = 4.86358547098191e-03
+    TL3.L = 4.556672642232417e-03
+    TL4.L = 281.7639743111305e-06
+    TL5.L = 4.594629021624168e-03
+    TL8.L = 366.2637967390978e-06
+
+SP Optim1[1].SP1[873] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=873  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #873:
+  CurrentEF: 212.860294028271
+  Optimization variables:
+    CLin4.L = 6.962604429586309e-03
+    CLin4.S = 240.792741944219e-06
+    step1w2 = 2.591395125369792e-03
+    step3w1 = 429.2201336483711e-06
+    step4w1 = 1.685804680856439e-03
+    tee1w1 = 8.095189675239332e-03
+    tee1w2 = 6.196124372026328e-03
+    tee1w3 = 4.750650704573085e-03
+    TL3.L = 4.682066468981693e-03
+    TL4.L = 382.3796253572117e-06
+    TL5.L = 4.417904758960356e-03
+    TL8.L = 343.4754100743643e-06
+
+SP Optim1[1].SP1[896] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=896  freq=(10 MHz->5.5 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.008148) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W1' in `Tee1'
+
+
+
+Iteration/Trial #896:
+  CurrentEF: 212.703828079472
+  Optimization variables:
+    CLin4.L = 7.023113065610408e-03
+    CLin4.S = 243.3686482675055e-06
+    step1w2 = 2.644290648095469e-03
+    step3w1 = 461.7451791537784e-06
+    step4w1 = 1.811486385396352e-03
+    tee1w1 = 8.147793447141489e-03
+    tee1w2 = 6.082692232975771e-03
+    tee1w3 = 4.452039126393855e-03
+    TL3.L = 4.575745625269273e-03
+    TL4.L = 351.7021981897338e-06
+    TL5.L = 4.418207054208023e-03
+    TL8.L = 305.2062096796458e-06
+
+SP Optim1[1].SP1[1112] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1112  freq=(10 MHz->5.5 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.007898) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W1' in `Tee1'
+
+
+
+Iteration/Trial #1112:
+  CurrentEF: 212.49502037198
+  Optimization variables:
+    CLin4.L = 7.516724857797437e-03
+    CLin4.S = 295.4776453278223e-06
+    step1w2 = 2.66766568025068e-03
+    step3w1 = 538.207273810903e-06
+    step4w1 = 1.51759712368856e-03
+    tee1w1 = 7.897687053308939e-03
+    tee1w2 = 5.853025303246718e-03
+    tee1w3 = 4.161738418496724e-03
+    TL3.L = 4.068106412080098e-03
+    TL4.L = 530.0122257655467e-06
+    TL5.L = 4.238790104361656e-03
+    TL8.L = 277.7125309103428e-06
+
+SP Optim1[1].SP1[1140] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1140  freq=(10 MHz->5.5 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP1'.
+    UserValue(0.007913) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W1' in `Tee1'
+
+
+
+Iteration/Trial #1140:
+  CurrentEF: 212.349053733162
+  Optimization variables:
+    CLin4.L = 7.754392846523044e-03
+    CLin4.S = 366.8929604257331e-06
+    step1w2 = 2.660032332905967e-03
+    step3w1 = 470.8233289394862e-06
+    step4w1 = 1.311328089029959e-03
+    tee1w1 = 7.912896116445014e-03
+    tee1w2 = 5.638516445847893e-03
+    tee1w3 = 4.199287077234963e-03
+    TL3.L = 3.655499474324281e-03
+    TL4.L = 396.0197162504065e-06
+    TL5.L = 4.234310067896723e-03
+    TL8.L = 553.3005611494999e-06
+
+SP Optim1[1].SP1[1229] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1229  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1229:
+  CurrentEF: 212.349053733162
+  Optimization variables:
+    CLin4.L = 7.754392846523044e-03
+    CLin4.S = 366.8929604257331e-06
+    step1w2 = 2.660032332905967e-03
+    step3w1 = 470.8233289394862e-06
+    step4w1 = 1.311328089029959e-03
+    tee1w1 = 7.912896116445014e-03
+    tee1w2 = 5.638516445847893e-03
+    tee1w3 = 4.199287077234963e-03
+    TL3.L = 3.655499474324281e-03
+    TL4.L = 396.0197162504065e-06
+    TL5.L = 4.234310067896723e-03
+    TL8.L = 553.3005611494999e-06
+
+SP Optim1[1].SP1[1230] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1230  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1230:
+  CurrentEF: 212.333879414691
+  Optimization variables:
+    CLin4.L = 7.743803101231205e-03
+    CLin4.S = 367.911374314491e-06
+    step1w2 = 2.659902398831596e-03
+    step3w1 = 470.6983489733545e-06
+    step4w1 = 1.297886650856716e-03
+    tee1w1 = 7.911564742119747e-03
+    tee1w2 = 5.641083413177817e-03
+    tee1w3 = 4.197311485626479e-03
+    TL3.L = 3.653591517079879e-03
+    TL4.L = 392.0137862258528e-06
+    TL5.L = 4.231772309604665e-03
+    TL8.L = 558.9669274089047e-06
+
+SP Optim1[1].SP1[1231] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1231  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1231:
+  CurrentEF: 212.314264351325
+  Optimization variables:
+    CLin4.L = 7.73938133843143e-03
+    CLin4.S = 365.1723598020581e-06
+    step1w2 = 2.694638828940708e-03
+    step3w1 = 470.7322920853876e-06
+    step4w1 = 1.280634846004944e-03
+    tee1w1 = 7.911006861646837e-03
+    tee1w2 = 5.651934006512022e-03
+    tee1w3 = 4.203310987351647e-03
+    TL3.L = 3.655902997957449e-03
+    TL4.L = 387.6986086325594e-06
+    TL5.L = 4.224190658117534e-03
+    TL8.L = 565.6184718810728e-06
+
+SP Optim1[1].SP1[1232] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1232  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1232:
+  CurrentEF: 212.273316354076
+  Optimization variables:
+    CLin4.L = 7.722558239335895e-03
+    CLin4.S = 356.8554125996272e-06
+    step1w2 = 2.746348466828326e-03
+    step3w1 = 478.1711978216485e-06
+    step4w1 = 1.246838724363792e-03
+    tee1w1 = 7.909259424972335e-03
+    tee1w2 = 5.699364241957052e-03
+    tee1w3 = 4.246575123122853e-03
+    TL3.L = 3.678440628279512e-03
+    TL4.L = 381.6314173806738e-06
+    TL5.L = 4.198541835726671e-03
+    TL8.L = 576.4556890964152e-06
+
+SP Optim1[1].SP1[1233] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1233  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1233:
+  CurrentEF: 211.991688011917
+  Optimization variables:
+    CLin4.L = 7.687535956732637e-03
+    CLin4.S = 363.0889480669651e-06
+    step1w2 = 3.196620336057233e-03
+    step3w1 = 446.0999703103176e-06
+    step4w1 = 1.031256639348675e-03
+    tee1w1 = 7.996106404232432e-03
+    tee1w2 = 6.205972660282067e-03
+    tee1w3 = 4.733743961154229e-03
+    TL3.L = 3.927155444917846e-03
+    TL4.L = 363.5022307211891e-06
+    TL5.L = 3.848648400158621e-03
+    TL8.L = 644.8398996338938e-06
+
+SP Optim1[1].SP1[1234] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1234  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1234:
+  CurrentEF: 211.642823400344
+  Optimization variables:
+    CLin4.L = 7.83938613459725e-03
+    CLin4.S = 390.5334362168659e-06
+    step1w2 = 3.920953163596505e-03
+    step3w1 = 464.8439202336682e-06
+    step4w1 = 727.5040648127672e-06
+    tee1w1 = 8.213384785954269e-03
+    tee1w2 = 6.789795897426316e-03
+    tee1w3 = 5.201495263879499e-03
+    TL3.L = 3.981873329137285e-03
+    TL4.L = 334.3279588476151e-06
+    TL5.L = 3.107907011066115e-03
+    TL8.L = 802.7873914848286e-06
+
+SP Optim1[1].SP1[1235] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1235  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1235:
+  CurrentEF: 211.404763074244
+  Optimization variables:
+    CLin4.L = 7.840820923229344e-03
+    CLin4.S = 398.4506998883212e-06
+    step1w2 = 4.582539012213063e-03
+    step3w1 = 443.0540753663145e-06
+    step4w1 = 568.0405368604937e-06
+    tee1w1 = 8.409375665080395e-03
+    tee1w2 = 7.008370468593717e-03
+    tee1w3 = 5.518919250950258e-03
+    TL3.L = 3.971914608084201e-03
+    TL4.L = 313.6917528945183e-06
+    TL5.L = 2.712210293768272e-03
+    TL8.L = 930.3148631219514e-06
+
+SP Optim1[1].SP1[1236] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1236  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1236:
+  CurrentEF: 211.180380717365
+  Optimization variables:
+    CLin4.L = 8.02635292359569e-03
+    CLin4.S = 444.5002838469534e-06
+    step1w2 = 6.691756166532555e-03
+    step3w1 = 367.048600953121e-06
+    step4w1 = 344.3949477764917e-06
+    tee1w1 = 8.805179179486606e-03
+    tee1w2 = 7.715240762405192e-03
+    tee1w3 = 6.229205871980323e-03
+    TL3.L = 3.785292974127248e-03
+    TL4.L = 254.964479241422e-06
+    TL5.L = 1.679363346518872e-03
+    TL8.L = 1.02396536921645e-03
+
+SP Optim1[1].SP1[1237] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1237  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1237:
+  CurrentEF: 210.848311586417
+  Optimization variables:
+    CLin4.L = 7.996550484396526e-03
+    CLin4.S = 448.9780512767069e-06
+    step1w2 = 7.498056567315152e-03
+    step3w1 = 353.1313537722127e-06
+    step4w1 = 324.2641735555374e-06
+    tee1w1 = 9.073693165351244e-03
+    tee1w2 = 7.992991204238272e-03
+    tee1w3 = 6.770328428637883e-03
+    TL3.L = 3.781412743398471e-03
+    TL4.L = 235.4820132461292e-06
+    TL5.L = 1.159705245670508e-03
+    TL8.L = 1.008714478429982e-03
+
+SP Optim1[1].SP1[1238] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1238  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1238:
+  CurrentEF: 210.77800441659
+  Optimization variables:
+    CLin4.L = 7.965380681652428e-03
+    CLin4.S = 443.7405051870513e-06
+    step1w2 = 7.649829812689546e-03
+    step3w1 = 359.5085493705078e-06
+    step4w1 = 330.1496532580508e-06
+    tee1w1 = 9.174660174334315e-03
+    tee1w2 = 8.064808056364225e-03
+    tee1w3 = 6.888522170347904e-03
+    TL3.L = 3.757608778279659e-03
+    TL4.L = 232.4787502343398e-06
+    TL5.L = 1.068942277576315e-03
+    TL8.L = 1.009142930149145e-03
+
+SP Optim1[1].SP1[1239] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1239  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1239:
+  CurrentEF: 210.41181841545
+  Optimization variables:
+    CLin4.L = 7.733547131069686e-03
+    CLin4.S = 383.2856728216733e-06
+    step1w2 = 7.549826437503845e-03
+    step3w1 = 437.4890486168106e-06
+    step4w1 = 514.259135313754e-06
+    tee1w1 = 9.510848021802718e-03
+    tee1w2 = 8.533455071150194e-03
+    tee1w3 = 8.05263384430974e-03
+    TL3.L = 2.54188577179e-03
+    TL4.L = 226.0371665988515e-06
+    TL5.L = 1.196838053828645e-03
+    TL8.L = 889.5050617854082e-06
+
+SP Optim1[1].SP1[1240] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1240  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1240:
+  CurrentEF: 210.294837945791
+  Optimization variables:
+    CLin4.L = 7.755536259422879e-03
+    CLin4.S = 382.1070760140394e-06
+    step1w2 = 7.815760644542872e-03
+    step3w1 = 431.0637908781807e-06
+    step4w1 = 618.9062370152819e-06
+    tee1w1 = 9.537511284515264e-03
+    tee1w2 = 8.790175928777287e-03
+    tee1w3 = 8.692587954734219e-03
+    TL3.L = 1.860061732518382e-03
+    TL4.L = 226.0971576105611e-06
+    TL5.L = 1.181981499749168e-03
+    TL8.L = 1.062138597494667e-03
+
+SP Optim1[1].SP1[1241] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1241  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1241:
+  CurrentEF: 210.094105091022
+  Optimization variables:
+    CLin4.L = 7.686268811711214e-03
+    CLin4.S = 379.3782490241277e-06
+    step1w2 = 8.179634977828651e-03
+    step3w1 = 417.721818983712e-06
+    step4w1 = 530.3233106040935e-06
+    tee1w1 = 9.671215402674679e-03
+    tee1w2 = 9.000100210826575e-03
+    tee1w3 = 9.299949314494222e-03
+    TL3.L = 1.238677308635818e-03
+    TL4.L = 224.1334916174623e-06
+    TL5.L = 1.137261604590298e-03
+    TL8.L = 1.01283216928768e-03
+
+SP Optim1[1].SP1[1242] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1242  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1242:
+  CurrentEF: 209.888171909165
+  Optimization variables:
+    CLin4.L = 7.633764321494387e-03
+    CLin4.S = 392.3907186648357e-06
+    step1w2 = 8.49102151765959e-03
+    step3w1 = 411.5005927713199e-06
+    step4w1 = 486.1937106211002e-06
+    tee1w1 = 9.887133423344741e-03
+    tee1w2 = 9.312852562186086e-03
+    tee1w3 = 9.683504331034379e-03
+    TL3.L = 731.6208175544532e-06
+    TL4.L = 220.4705631120149e-06
+    TL5.L = 1.193454464504882e-03
+    TL8.L = 976.9224226177449e-06
+
+SP Optim1[1].SP1[1243] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1243  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1243:
+  CurrentEF: 209.853947817988
+  Optimization variables:
+    CLin4.L = 7.618765161915064e-03
+    CLin4.S = 392.2658242573164e-06
+    step1w2 = 8.599608425159968e-03
+    step3w1 = 414.4538557134531e-06
+    step4w1 = 478.0535521202083e-06
+    tee1w1 = 9.922031856134805e-03
+    tee1w2 = 9.395312591532763e-03
+    tee1w3 = 9.783160613957535e-03
+    TL3.L = 605.6911747024237e-06
+    TL4.L = 220.2102102206894e-06
+    TL5.L = 1.176155442609657e-03
+    TL8.L = 976.7361940635788e-06
+
+SP Optim1[1].SP1[1244] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1244  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1244:
+  CurrentEF: 209.817711349572
+  Optimization variables:
+    CLin4.L = 7.606204976354192e-03
+    CLin4.S = 389.0436868248855e-06
+    step1w2 = 8.81781121245352e-03
+    step3w1 = 419.5394971437878e-06
+    step4w1 = 447.6666384407252e-06
+    tee1w1 = 9.972252815319311e-03
+    tee1w2 = 9.607806240424961e-03
+    tee1w3 = 9.893665519949118e-03
+    TL3.L = 430.1469980449866e-06
+    TL4.L = 224.7468960003871e-06
+    TL5.L = 1.232227872417593e-03
+    TL8.L = 985.2538103669573e-06
+
+SP Optim1[1].SP1[1245] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1245  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1245:
+  CurrentEF: 209.736519114818
+  Optimization variables:
+    CLin4.L = 7.580049303980971e-03
+    CLin4.S = 373.4260697614779e-06
+    step1w2 = 9.266447986738376e-03
+    step3w1 = 431.4193735994607e-06
+    step4w1 = 484.2307571269153e-06
+    tee1w1 = 9.999859642389737e-03
+    tee1w2 = 9.88595767637457e-03
+    tee1w3 = 9.996403851782546e-03
+    TL3.L = 248.2430232954435e-06
+    TL4.L = 242.7220252709631e-06
+    TL5.L = 1.214684732297316e-03
+    TL8.L = 1.095387837728638e-03
+
+SP Optim1[1].SP1[1246] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1246  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1246:
+  CurrentEF: 209.699075422863
+  Optimization variables:
+    CLin4.L = 7.587024344423699e-03
+    CLin4.S = 366.6511376602912e-06
+    step1w2 = 9.468766923003533e-03
+    step3w1 = 420.5389793965956e-06
+    step4w1 = 575.3613393985291e-06
+    tee1w1 = 9.993247296535133e-03
+    tee1w2 = 9.971958693580066e-03
+    tee1w3 = 9.999829496638097e-03
+    TL3.L = 226.3091592904367e-06
+    TL4.L = 273.1958763107485e-06
+    TL5.L = 1.269047876120531e-03
+    TL8.L = 1.216078192547138e-03
+
+SP Optim1[1].SP1[1247] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1247  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1247:
+  CurrentEF: 209.686781211566
+  Optimization variables:
+    CLin4.L = 7.589982910151494e-03
+    CLin4.S = 366.787302081508e-06
+    step1w2 = 9.642613829952545e-03
+    step3w1 = 411.1510196238427e-06
+    step4w1 = 634.8612429803609e-06
+    tee1w1 = 9.969228276616072e-03
+    tee1w2 = 9.999698229338218e-03
+    tee1w3 = 9.992336292905094e-03
+    TL3.L = 205.2436934210753e-06
+    TL4.L = 355.8520504828955e-06
+    TL5.L = 1.270577552031742e-03
+    TL8.L = 1.270942483452624e-03
+
+SP Optim1[1].SP1[1248] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1248  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1248:
+  CurrentEF: 209.679444579371
+  Optimization variables:
+    CLin4.L = 7.603482419053798e-03
+    CLin4.S = 371.6973426635974e-06
+    step1w2 = 9.785666353516492e-03
+    step3w1 = 409.0044994985824e-06
+    step4w1 = 686.0564461190343e-06
+    tee1w1 = 9.920127907011642e-03
+    tee1w2 = 9.98469492037714e-03
+    tee1w3 = 9.962779691864583e-03
+    TL3.L = 202.2388645395409e-06
+    TL4.L = 529.9559087917729e-06
+    TL5.L = 1.245310513001178e-03
+    TL8.L = 1.335785715499359e-03
+
+SP Optim1[1].SP1[1249] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1249  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1249:
+  CurrentEF: 209.67921495596
+  Optimization variables:
+    CLin4.L = 7.604312803125349e-03
+    CLin4.S = 371.9839632705515e-06
+    step1w2 = 9.795781002999234e-03
+    step3w1 = 409.112998254006e-06
+    step4w1 = 687.6292713871621e-06
+    tee1w1 = 9.915220476148876e-03
+    tee1w2 = 9.981798027557047e-03
+    tee1w3 = 9.959450476585578e-03
+    TL3.L = 203.2311781402854e-06
+    TL4.L = 554.6359623407227e-06
+    TL5.L = 1.242427265597448e-03
+    TL8.L = 1.338529395966651e-03
+
+SP Optim1[1].SP1[1250] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1250  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1250:
+  CurrentEF: 209.679111283193
+  Optimization variables:
+    CLin4.L = 7.604180765731459e-03
+    CLin4.S = 371.9385192762204e-06
+    step1w2 = 9.794139908952573e-03
+    step3w1 = 409.0956324867676e-06
+    step4w1 = 687.3633939974347e-06
+    tee1w1 = 9.916036257320494e-03
+    tee1w2 = 9.982292788909863e-03
+    tee1w3 = 9.960011451521531e-03
+    TL3.L = 203.0545458003161e-06
+    TL4.L = 557.0017738319066e-06
+    TL5.L = 1.2428831391284e-03
+    TL8.L = 1.338069445460913e-03
+
+SP Optim1[1].SP1[1251] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1251  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1251:
+  CurrentEF: 209.678998358318
+  Optimization variables:
+    CLin4.L = 7.603906154213563e-03
+    CLin4.S = 371.8738429116783e-06
+    step1w2 = 9.790360523983986e-03
+    step3w1 = 409.0589233319236e-06
+    step4w1 = 686.573676086585e-06
+    tee1w1 = 9.91782321875647e-03
+    tee1w2 = 9.983413507862204e-03
+    tee1w3 = 9.961190049237321e-03
+    TL3.L = 202.696110613504e-06
+    TL4.L = 555.2144550133385e-06
+    TL5.L = 1.243854506775284e-03
+    TL8.L = 1.336968337262697e-03
+
+SP Optim1[1].SP1[1252] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1252  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1252:
+  CurrentEF: 209.678809022461
+  Optimization variables:
+    CLin4.L = 7.603946564149251e-03
+    CLin4.S = 371.8886332822116e-06
+    step1w2 = 9.791529952546165e-03
+    step3w1 = 409.0866802049291e-06
+    step4w1 = 686.7530092573588e-06
+    tee1w1 = 9.917258209260076e-03
+    tee1w2 = 9.98306940321592e-03
+    tee1w3 = 9.96077694991622e-03
+    TL3.L = 204.8660552196182e-06
+    TL4.L = 563.4160659032794e-06
+    TL5.L = 1.243520673465178e-03
+    TL8.L = 1.33709589199826e-03
+
+SP Optim1[1].SP1[1253] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1253  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1253:
+  CurrentEF: 209.677767634235
+  Optimization variables:
+    CLin4.L = 7.602636037268309e-03
+    CLin4.S = 372.475856539468e-06
+    step1w2 = 9.791585626574801e-03
+    step3w1 = 409.4464467154012e-06
+    step4w1 = 686.7747697713022e-06
+    tee1w1 = 9.917258208055696e-03
+    tee1w2 = 9.98306940328084e-03
+    tee1w3 = 9.960776948466081e-03
+    TL3.L = 203.1627907753375e-06
+    TL4.L = 569.0888347101065e-06
+    TL5.L = 1.243668428558659e-03
+    TL8.L = 1.323677769137873e-03
+
+SP Optim1[1].SP1[1254] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1254  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1254:
+  CurrentEF: 209.676557843682
+  Optimization variables:
+    CLin4.L = 7.60117147805543e-03
+    CLin4.S = 372.6076239518022e-06
+    step1w2 = 9.791610504399898e-03
+    step3w1 = 409.3629398299733e-06
+    step4w1 = 679.8038282407112e-06
+    tee1w1 = 9.917258206231338e-03
+    tee1w2 = 9.983069403020241e-03
+    tee1w3 = 9.960776948549912e-03
+    TL3.L = 201.6195725827309e-06
+    TL4.L = 574.8520016912408e-06
+    TL5.L = 1.243246971591673e-03
+    TL8.L = 1.310569294596805e-03
+
+SP Optim1[1].SP1[1255] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1255  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1255:
+  CurrentEF: 209.669785110785
+  Optimization variables:
+    CLin4.L = 7.615877237445673e-03
+    CLin4.S = 376.6870905839212e-06
+    step1w2 = 9.800064579756823e-03
+    step3w1 = 421.1542298262693e-06
+    step4w1 = 665.6241293749907e-06
+    tee1w1 = 9.917257741845866e-03
+    tee1w2 = 9.983069414971115e-03
+    tee1w3 = 9.960776893413154e-03
+    TL3.L = 200.3491096117465e-06
+    TL4.L = 591.7595753981615e-06
+    TL5.L = 1.182944107111786e-03
+    TL8.L = 1.311879935470386e-03
+
+SP Optim1[1].SP1[1256] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1256  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1256:
+  CurrentEF: 209.666334621015
+  Optimization variables:
+    CLin4.L = 7.647366355064221e-03
+    CLin4.S = 387.5780082312815e-06
+    step1w2 = 9.819550178547513e-03
+    step3w1 = 421.2640756903056e-06
+    step4w1 = 661.0275146431277e-06
+    tee1w1 = 9.917256783954864e-03
+    tee1w2 = 9.983069488727158e-03
+    tee1w3 = 9.960776666910871e-03
+    TL3.L = 200.1912254371973e-06
+    TL4.L = 619.0176587657128e-06
+    TL5.L = 1.107936071374394e-03
+    TL8.L = 1.271379081345366e-03
+
+SP Optim1[1].SP1[1257] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1257  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1257:
+  CurrentEF: 209.658120008993
+  Optimization variables:
+    CLin4.L = 7.618733851114809e-03
+    CLin4.S = 380.4151546894531e-06
+    step1w2 = 9.848379294176243e-03
+    step3w1 = 439.6536770776862e-06
+    step4w1 = 665.2601089131934e-06
+    tee1w1 = 9.91725544661326e-03
+    tee1w2 = 9.983069590856493e-03
+    tee1w3 = 9.960776168088385e-03
+    TL3.L = 202.170302801278e-06
+    TL4.L = 655.8612293202678e-06
+    TL5.L = 1.042600072902687e-03
+    TL8.L = 1.213627801300036e-03
+
+SP Optim1[1].SP1[1258] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1258  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1258:
+  CurrentEF: 209.646271719181
+  Optimization variables:
+    CLin4.L = 7.610687143624326e-03
+    CLin4.S = 380.1007111678246e-06
+    step1w2 = 9.952663617288745e-03
+    step3w1 = 457.2285339896403e-06
+    step4w1 = 588.6670614357165e-06
+    tee1w1 = 9.917249231981069e-03
+    tee1w2 = 9.983069904657221e-03
+    tee1w3 = 9.960771849269525e-03
+    TL3.L = 202.0889968440748e-06
+    TL4.L = 804.4071970279049e-06
+    TL5.L = 948.7036986659313e-06
+    TL8.L = 1.074600150169385e-03
+
+SP Optim1[1].SP1[1259] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1259  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1259:
+  CurrentEF: 209.641595280315
+  Optimization variables:
+    CLin4.L = 7.612572131564302e-03
+    CLin4.S = 381.2054593531258e-06
+    step1w2 = 9.999129037468283e-03
+    step3w1 = 451.3811221653789e-06
+    step4w1 = 597.5140765351171e-06
+    tee1w1 = 9.917248472998675e-03
+    tee1w2 = 9.983069938121682e-03
+    tee1w3 = 9.960771291524707e-03
+    TL3.L = 204.2275419201943e-06
+    TL4.L = 823.8249683913331e-06
+    TL5.L = 945.4765591920009e-06
+    TL8.L = 1.07844429538287e-03
+
+SP Optim1[1].SP1[1260] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1260  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1260:
+  CurrentEF: 209.640188108513
+  Optimization variables:
+    CLin4.L = 7.615587664492119e-03
+    CLin4.S = 382.8886695970731e-06
+    step1w2 = 9.998874800238599e-03
+    step3w1 = 450.7683600861029e-06
+    step4w1 = 609.1351420225998e-06
+    tee1w1 = 9.917246954354038e-03
+    tee1w2 = 9.98306999217265e-03
+    tee1w3 = 9.960770005937468e-03
+    TL3.L = 204.566003004129e-06
+    TL4.L = 867.5724717792001e-06
+    TL5.L = 943.3637404131474e-06
+    TL8.L = 1.084545048417139e-03
+
+SP Optim1[1].SP1[1261] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1261  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1261:
+  CurrentEF: 209.635546048223
+  Optimization variables:
+    CLin4.L = 7.623405910871868e-03
+    CLin4.S = 385.6742174371085e-06
+    step1w2 = 9.997636219281633e-03
+    step3w1 = 448.5888481625125e-06
+    step4w1 = 617.0799801723412e-06
+    tee1w1 = 9.917240532880277e-03
+    tee1w2 = 9.98307022825131e-03
+    tee1w3 = 9.960764691744731e-03
+    TL3.L = 205.880881778036e-06
+    TL4.L = 1.028437931632856e-03
+    TL5.L = 963.7558754910593e-06
+    TL8.L = 1.102249293730134e-03
+
+SP Optim1[1].SP1[1262] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1262  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1262:
+  CurrentEF: 209.635324549746
+  Optimization variables:
+    CLin4.L = 7.623542192027625e-03
+    CLin4.S = 385.5369016068948e-06
+    step1w2 = 9.997636712831983e-03
+    step3w1 = 448.5825513108637e-06
+    step4w1 = 617.0624836329615e-06
+    tee1w1 = 9.917240531508456e-03
+    tee1w2 = 9.983070228291429e-03
+    tee1w3 = 9.960764690714996e-03
+    TL3.L = 205.8798835667886e-06
+    TL4.L = 1.038793730125631e-03
+    TL5.L = 963.7918722672787e-06
+    TL8.L = 1.102300545610139e-03
+
+SP Optim1[1].SP1[1263] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1263  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1263:
+  CurrentEF: 209.635135173467
+  Optimization variables:
+    CLin4.L = 7.623622535639914e-03
+    CLin4.S = 385.2988005234344e-06
+    step1w2 = 9.997639406905588e-03
+    step3w1 = 448.9036008027952e-06
+    step4w1 = 617.0311197678103e-06
+    tee1w1 = 9.917240525149416e-03
+    tee1w2 = 9.983070228563437e-03
+    tee1w3 = 9.960764684586667e-03
+    TL3.L = 205.8773955030865e-06
+    TL4.L = 1.049416030989771e-03
+    TL5.L = 964.2112369593882e-06
+    TL8.L = 1.102476496028969e-03
+
+SP Optim1[1].SP1[1264] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1264  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1264:
+  CurrentEF: 209.633900672194
+  Optimization variables:
+    CLin4.L = 7.612299973222935e-03
+    CLin4.S = 381.1240232732608e-06
+    step1w2 = 9.997688960268125e-03
+    step3w1 = 453.3216262797069e-06
+    step4w1 = 622.1315576211637e-06
+    tee1w1 = 9.917240405203019e-03
+    tee1w2 = 9.983070231031808e-03
+    tee1w3 = 9.960764571983199e-03
+    TL3.L = 205.8244210594054e-06
+    TL4.L = 1.064223653895044e-03
+    TL5.L = 970.8556941443575e-06
+    TL8.L = 1.106721433062415e-03
+
+SP Optim1[1].SP1[1265] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1265  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1265:
+  CurrentEF: 209.627863935036
+  Optimization variables:
+    CLin4.L = 7.611204432466287e-03
+    CLin4.S = 378.5641064702865e-06
+    step1w2 = 9.998969419892095e-03
+    step3w1 = 432.7694767752305e-06
+    step4w1 = 593.9509679627747e-06
+    tee1w1 = 9.917236207685377e-03
+    tee1w2 = 9.983070386942497e-03
+    tee1w3 = 9.960761202128125e-03
+    TL3.L = 201.8800754833755e-06
+    TL4.L = 1.237578529255516e-03
+    TL5.L = 1.145312619828607e-03
+    TL8.L = 1.196525276298673e-03
+
+SP Optim1[1].SP1[1266] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1266  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1266:
+  CurrentEF: 209.606174925173
+  Optimization variables:
+    CLin4.L = 7.593712417306909e-03
+    CLin4.S = 374.8187552972425e-06
+    step1w2 = 9.999980924723777e-03
+    step3w1 = 434.6259151091175e-06
+    step4w1 = 639.8490448466831e-06
+    tee1w1 = 9.917225620435977e-03
+    tee1w2 = 9.98307069749904e-03
+    tee1w3 = 9.960754145485456e-03
+    TL3.L = 200.1712969520717e-06
+    TL4.L = 1.814351290090952e-03
+    TL5.L = 1.249786559052297e-03
+    TL8.L = 1.272319375311277e-03
+
+SP Optim1[1].SP1[1267] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1267  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1267:
+  CurrentEF: 209.605299476771
+  Optimization variables:
+    CLin4.L = 7.593152918801765e-03
+    CLin4.S = 374.8124744084286e-06
+    step1w2 = 9.999980924554345e-03
+    step3w1 = 434.4198590140664e-06
+    step4w1 = 639.8276072920119e-06
+    tee1w1 = 9.917225618723748e-03
+    tee1w2 = 9.983070697365948e-03
+    tee1w3 = 9.960754145533369e-03
+    TL3.L = 200.1712969867143e-06
+    TL4.L = 1.832690234273519e-03
+    TL5.L = 1.249566792100933e-03
+    TL8.L = 1.25963597058568e-03
+
+SP Optim1[1].SP1[1268] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1268  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1268:
+  CurrentEF: 209.604115784449
+  Optimization variables:
+    CLin4.L = 7.590856442978189e-03
+    CLin4.S = 375.0906353943521e-06
+    step1w2 = 9.999980924322662e-03
+    step3w1 = 434.2659324947718e-06
+    step4w1 = 639.7656744951512e-06
+    tee1w1 = 9.917225617427887e-03
+    tee1w2 = 9.983070696972926e-03
+    tee1w3 = 9.960754145241071e-03
+    TL3.L = 200.1712970093187e-06
+    TL4.L = 1.851188091526059e-03
+    TL5.L = 1.249360593416134e-03
+    TL8.L = 1.247172359095835e-03
+
+SP Optim1[1].SP1[1269] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1269  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1269:
+  CurrentEF: 209.603234926586
+  Optimization variables:
+    CLin4.L = 7.588413740159352e-03
+    CLin4.S = 374.9776009997582e-06
+    step1w2 = 9.999980924204148e-03
+    step3w1 = 433.6547665343048e-06
+    step4w1 = 645.9936243964855e-06
+    tee1w1 = 9.917225614322083e-03
+    tee1w2 = 9.983070696230955e-03
+    tee1w3 = 9.960754145905741e-03
+    TL3.L = 200.1712970829004e-06
+    TL4.L = 1.87012517305862e-03
+    TL5.L = 1.248635996308021e-03
+    TL8.L = 1.247424592241887e-03
+
+SP Optim1[1].SP1[1270] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1270  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1270:
+  CurrentEF: 209.601749388308
+  Optimization variables:
+    CLin4.L = 7.60714163382051e-03
+    CLin4.S = 381.1357025569301e-06
+    step1w2 = 9.999980844458292e-03
+    step3w1 = 431.3629606250231e-06
+    step4w1 = 640.0617632996436e-06
+    tee1w1 = 9.917225173435833e-03
+    tee1w2 = 9.983070701273744e-03
+    tee1w3 = 9.960754039673945e-03
+    TL3.L = 200.1713042382334e-06
+    TL4.L = 1.904957802723709e-03
+    TL5.L = 1.235573219945082e-03
+    TL8.L = 1.249058789645769e-03
+
+SP Optim1[1].SP1[1271] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1271  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1271:
+  CurrentEF: 209.598374069267
+  Optimization variables:
+    CLin4.L = 7.611551043416203e-03
+    CLin4.S = 383.2678699023305e-06
+    step1w2 = 9.999980572456397e-03
+    step3w1 = 443.5739133390143e-06
+    step4w1 = 626.1905551525643e-06
+    tee1w1 = 9.917223801456744e-03
+    tee1w2 = 9.98307071290889e-03
+    tee1w3 = 9.960753634549704e-03
+    TL3.L = 200.1713255335282e-06
+    TL4.L = 2.030866742776072e-03
+    TL5.L = 1.210047163444219e-03
+    TL8.L = 1.24708893992584e-03
+
+SP Optim1[1].SP1[1272] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1272  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1272:
+  CurrentEF: 209.59283842776
+  Optimization variables:
+    CLin4.L = 7.598234633719434e-03
+    CLin4.S = 381.5285106851569e-06
+    step1w2 = 9.999979933809766e-03
+    step3w1 = 452.0146377091443e-06
+    step4w1 = 627.5658993892797e-06
+    tee1w1 = 9.917220795398994e-03
+    tee1w2 = 9.983070795346043e-03
+    tee1w3 = 9.960752613883662e-03
+    TL3.L = 200.1713704252459e-06
+    TL4.L = 2.25917602513505e-03
+    TL5.L = 1.214625756939725e-03
+    TL8.L = 1.206235385161633e-03
+
+SP Optim1[1].SP1[1273] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1273  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1273:
+  CurrentEF: 209.590849577913
+  Optimization variables:
+    CLin4.L = 7.59625391346915e-03
+    CLin4.S = 381.7149018211822e-06
+    step1w2 = 9.999979640041862e-03
+    step3w1 = 449.7197435413924e-06
+    step4w1 = 624.9798353517776e-06
+    tee1w1 = 9.917219541028229e-03
+    tee1w2 = 9.983070859553194e-03
+    tee1w3 = 9.960752107219185e-03
+    TL3.L = 202.1931020572694e-06
+    TL4.L = 2.327785174964977e-03
+    TL5.L = 1.238991153829088e-03
+    TL8.L = 1.220529425859016e-03
+
+SP Optim1[1].SP1[1274] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1274  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1274:
+  CurrentEF: 209.58740489593
+  Optimization variables:
+    CLin4.L = 7.577767277268185e-03
+    CLin4.S = 379.5713338230584e-06
+    step1w2 = 9.999977216501674e-03
+    step3w1 = 424.3353799512761e-06
+    step4w1 = 574.6219380320085e-06
+    tee1w1 = 9.917207034440797e-03
+    tee1w2 = 9.983071773256766e-03
+    tee1w3 = 9.960748164186961e-03
+    TL3.L = 206.434852565021e-06
+    TL4.L = 2.586113013101337e-03
+    TL5.L = 1.428153706375686e-03
+    TL8.L = 1.220671552049598e-03
+
+SP Optim1[1].SP1[1275] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1275  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1275:
+  CurrentEF: 209.586158077097
+  Optimization variables:
+    CLin4.L = 7.573522087119961e-03
+    CLin4.S = 378.6699133590759e-06
+    step1w2 = 9.999976906448259e-03
+    step3w1 = 423.4294372566381e-06
+    step4w1 = 593.8922693186306e-06
+    tee1w1 = 9.917204837054145e-03
+    tee1w2 = 9.98307199448034e-03
+    tee1w3 = 9.96074778892992e-03
+    TL3.L = 205.3502372499011e-06
+    TL4.L = 2.590552231437993e-03
+    TL5.L = 1.435637022471486e-03
+    TL8.L = 1.230592514130192e-03
+
+SP Optim1[1].SP1[1276] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1276  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1276:
+  CurrentEF: 209.584590281802
+  Optimization variables:
+    CLin4.L = 7.568903420150626e-03
+    CLin4.S = 377.5915035358928e-06
+    step1w2 = 9.999976440665822e-03
+    step3w1 = 427.0391005338645e-06
+    step4w1 = 616.9970739413365e-06
+    tee1w1 = 9.917201705366989e-03
+    tee1w2 = 9.983072304064975e-03
+    tee1w3 = 9.960747208401561e-03
+    TL3.L = 203.2167175821577e-06
+    TL4.L = 2.564973736323844e-03
+    TL5.L = 1.419629630202255e-03
+    TL8.L = 1.256858149711614e-03
+
+SP Optim1[1].SP1[1277] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1277  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1277:
+  CurrentEF: 209.58378640517
+  Optimization variables:
+    CLin4.L = 7.5615346764252e-03
+    CLin4.S = 376.0740347236322e-06
+    step1w2 = 9.999975733931896e-03
+    step3w1 = 430.7762155820662e-06
+    step4w1 = 647.7443725452382e-06
+    tee1w1 = 9.917196271813278e-03
+    tee1w2 = 9.9830728147536e-03
+    tee1w3 = 9.960746352812135e-03
+    TL3.L = 200.6168393129734e-06
+    TL4.L = 2.608209271604441e-03
+    TL5.L = 1.41362191840705e-03
+    TL8.L = 1.268484103883093e-03
+
+SP Optim1[1].SP1[1278] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1278  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1278:
+  CurrentEF: 209.582761516732
+  Optimization variables:
+    CLin4.L = 7.552959385678761e-03
+    CLin4.S = 374.2473263714124e-06
+    step1w2 = 9.99997428748048e-03
+    step3w1 = 434.9221624180238e-06
+    step4w1 = 630.5130089971889e-06
+    tee1w1 = 9.917183917310153e-03
+    tee1w2 = 9.983074079650366e-03
+    tee1w3 = 9.960744728487113e-03
+    TL3.L = 200.0655286685806e-06
+    TL4.L = 2.625849373363053e-03
+    TL5.L = 1.413910479137105e-03
+    TL8.L = 1.243182970531451e-03
+
+SP Optim1[1].SP1[1279] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1279  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1279:
+  CurrentEF: 209.58172426787
+  Optimization variables:
+    CLin4.L = 7.551572539908068e-03
+    CLin4.S = 375.2516989456055e-06
+    step1w2 = 9.999970989003536e-03
+    step3w1 = 438.0997182904054e-06
+    step4w1 = 614.4708907466779e-06
+    tee1w1 = 9.917157605998572e-03
+    tee1w2 = 9.983076645403197e-03
+    tee1w3 = 9.960740907545205e-03
+    TL3.L = 200.027679620031e-06
+    TL4.L = 2.724637110736344e-03
+    TL5.L = 1.42753443287705e-03
+    TL8.L = 1.241042811816703e-03
+
+SP Optim1[1].SP1[1280] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1280  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1280:
+  CurrentEF: 209.58152375179
+  Optimization variables:
+    CLin4.L = 7.55506757067987e-03
+    CLin4.S = 376.711668542238e-06
+    step1w2 = 9.99996928780429e-03
+    step3w1 = 436.8692544351255e-06
+    step4w1 = 612.4291245601206e-06
+    tee1w1 = 9.917143733918301e-03
+    tee1w2 = 9.983078027357973e-03
+    tee1w3 = 9.960738889046751e-03
+    TL3.L = 200.093256210139e-06
+    TL4.L = 2.741718855751031e-03
+    TL5.L = 1.434916884752577e-03
+    TL8.L = 1.250173765647212e-03
+
+SP Optim1[1].SP1[1281] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1281  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1281:
+  CurrentEF: 209.581470181996
+  Optimization variables:
+    CLin4.L = 7.554753364527137e-03
+    CLin4.S = 377.4408691088212e-06
+    step1w2 = 9.999967012481223e-03
+    step3w1 = 437.0954564293847e-06
+    step4w1 = 615.1916528036552e-06
+    tee1w1 = 9.917126585859724e-03
+    tee1w2 = 9.983079713046919e-03
+    tee1w3 = 9.960736146854256e-03
+    TL3.L = 200.1319803700383e-06
+    TL4.L = 2.779791344831008e-03
+    TL5.L = 1.439360406116066e-03
+    TL8.L = 1.254828829284863e-03
+
+SP Optim1[1].SP1[1282] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1282  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1282:
+  CurrentEF: 209.581466067434
+  Optimization variables:
+    CLin4.L = 7.553932729457143e-03
+    CLin4.S = 377.0849566286479e-06
+    step1w2 = 9.999966434523866e-03
+    step3w1 = 436.9650135826163e-06
+    step4w1 = 616.65116593215e-06
+    tee1w1 = 9.917121492922596e-03
+    tee1w2 = 9.983080227289828e-03
+    tee1w3 = 9.960735339944442e-03
+    TL3.L = 200.1671472320403e-06
+    TL4.L = 2.774715085128466e-03
+    TL5.L = 1.440472832463459e-03
+    TL8.L = 1.256503597442468e-03
+
+SP Optim1[1].SP1[1283] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1283  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1283:
+  CurrentEF: 209.58146495183
+  Optimization variables:
+    CLin4.L = 7.554462847261621e-03
+    CLin4.S = 377.2102197597469e-06
+    step1w2 = 9.999967371616094e-03
+    step3w1 = 437.0290108018281e-06
+    step4w1 = 616.2447624439778e-06
+    tee1w1 = 9.917129412691543e-03
+    tee1w2 = 9.983079435153063e-03
+    tee1w3 = 9.960736569686929e-03
+    TL3.L = 200.1545373250785e-06
+    TL4.L = 2.772664435690223e-03
+    TL5.L = 1.439002175492829e-03
+    TL8.L = 1.255640299799242e-03
+
+SP Optim1[1].SP1[1284] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1284  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1284:
+  CurrentEF: 209.58146495183
+  Optimization variables:
+    CLin4.L = 7.554462847261621e-03
+    CLin4.S = 377.2102197597469e-06
+    step1w2 = 9.999967354941129e-03
+    step3w1 = 437.0290108018281e-06
+    step4w1 = 616.2447624439778e-06
+    tee1w1 = 9.917129268764154e-03
+    tee1w2 = 9.983079449564971e-03
+    tee1w3 = 9.960736547544664e-03
+    TL3.L = 200.1545373250785e-06
+    TL4.L = 2.772664435690223e-03
+    TL5.L = 1.439002175492829e-03
+    TL8.L = 1.255640299799242e-03
+
+SP Optim1[1].SP1[1285] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1285  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1285:
+  CurrentEF: 209.581461379511
+  Optimization variables:
+    CLin4.L = 7.554234333624251e-03
+    CLin4.S = 377.215915634956e-06
+    step1w2 = 9.999967355165043e-03
+    step3w1 = 437.0067986372575e-06
+    step4w1 = 616.2398227986941e-06
+    tee1w1 = 9.917129270630085e-03
+    tee1w2 = 9.983079449335967e-03
+    tee1w3 = 9.96073654784616e-03
+    TL3.L = 200.1546831290007e-06
+    TL4.L = 2.772695785043397e-03
+    TL5.L = 1.438995762017979e-03
+    TL8.L = 1.255667194330149e-03
+
+SP Optim1[1].SP1[1286] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1286  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1286:
+  CurrentEF: 209.581461104589
+  Optimization variables:
+    CLin4.L = 7.554221165438179e-03
+    CLin4.S = 377.2018382107284e-06
+    step1w2 = 9.999967354957912e-03
+    step3w1 = 436.9956489228535e-06
+    step4w1 = 616.2374296078219e-06
+    tee1w1 = 9.917129268722815e-03
+    tee1w2 = 9.983079449514935e-03
+    tee1w3 = 9.960736547581913e-03
+    TL3.L = 200.1546831696622e-06
+    TL4.L = 2.772701126731766e-03
+    TL5.L = 1.438986758340702e-03
+    TL8.L = 1.255672048407666e-03
+
+SP Optim1[1].SP1[1287] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1287  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1287:
+  CurrentEF: 209.581460717012
+  Optimization variables:
+    CLin4.L = 7.552448213450923e-03
+    CLin4.S = 376.5865524570571e-06
+    step1w2 = 9.999967300752217e-03
+    step3w1 = 437.3605239685609e-06
+    step4w1 = 616.3380293939184e-06
+    tee1w1 = 9.91712879643989e-03
+    tee1w2 = 9.9830794971894e-03
+    tee1w3 = 9.960736473405731e-03
+    TL3.L = 200.1546931051408e-06
+    TL4.L = 2.772348589244244e-03
+    TL5.L = 1.440601436182992e-03
+    TL8.L = 1.255819501856474e-03
+
+SP Optim1[1].SP1[1288] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1288  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1288:
+  CurrentEF: 209.58145871076
+  Optimization variables:
+    CLin4.L = 7.552268969828086e-03
+    CLin4.S = 376.567049172835e-06
+    step1w2 = 9.999967236206962e-03
+    step3w1 = 437.0327060917234e-06
+    step4w1 = 616.5350496960066e-06
+    tee1w1 = 9.917128226365339e-03
+    tee1w2 = 9.983079554517809e-03
+    tee1w3 = 9.960736386465018e-03
+    TL3.L = 200.1547051338911e-06
+    TL4.L = 2.77246123504067e-03
+    TL5.L = 1.441898976842393e-03
+    TL8.L = 1.255822974292214e-03
+
+SP Optim1[1].SP1[1289] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1289  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1289:
+  CurrentEF: 209.581456834115
+  Optimization variables:
+    CLin4.L = 7.552779572639464e-03
+    CLin4.S = 376.6939572540672e-06
+    step1w2 = 9.999966992329704e-03
+    step3w1 = 436.699116218864e-06
+    step4w1 = 616.0530935460308e-06
+    tee1w1 = 9.917126054766525e-03
+    tee1w2 = 9.983079770325093e-03
+    tee1w3 = 9.960736062412698e-03
+    TL3.L = 200.1547510721643e-06
+    TL4.L = 2.774134986996226e-03
+    TL5.L = 1.443797172514397e-03
+    TL8.L = 1.257794910581001e-03
+
+SP Optim1[1].SP1[1290] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1290  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1290:
+  CurrentEF: 209.581455511031
+  Optimization variables:
+    CLin4.L = 7.552756185042344e-03
+    CLin4.S = 376.7541048537566e-06
+    step1w2 = 9.999966709640621e-03
+    step3w1 = 436.6749200927188e-06
+    step4w1 = 616.5389059705461e-06
+    tee1w1 = 9.917123516206709e-03
+    tee1w2 = 9.983080022584091e-03
+    tee1w3 = 9.960735691366802e-03
+    TL3.L = 200.1548049022951e-06
+    TL4.L = 2.776918674826247e-03
+    TL5.L = 1.444249492815769e-03
+    TL8.L = 1.258352001660943e-03
+
+SP Optim1[1].SP1[1291] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1291  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1291:
+  CurrentEF: 209.581455229711
+  Optimization variables:
+    CLin4.L = 7.552751224758674e-03
+    CLin4.S = 376.6767037015356e-06
+    step1w2 = 9.999967557046376e-03
+    step3w1 = 436.7474863960346e-06
+    step4w1 = 616.6446430600828e-06
+    tee1w1 = 9.917131264540871e-03
+    tee1w2 = 9.983079246128764e-03
+    tee1w3 = 9.960736810758741e-03
+    TL3.L = 200.1546403214064e-06
+    TL4.L = 2.774424338932375e-03
+    TL5.L = 1.443730572196333e-03
+    TL8.L = 1.258590181890045e-03
+
+SP Optim1[1].SP1[1292] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1292  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1292:
+  CurrentEF: 209.581454986296
+  Optimization variables:
+    CLin4.L = 7.552726605716043e-03
+    CLin4.S = 376.6310043913329e-06
+    step1w2 = 9.999968236054885e-03
+    step3w1 = 436.7929698581172e-06
+    step4w1 = 616.5599217878274e-06
+    tee1w1 = 9.91713757384984e-03
+    tee1w2 = 9.983078613286902e-03
+    tee1w3 = 9.960737721071155e-03
+    TL3.L = 200.1545063562077e-06
+    TL4.L = 2.773090193038913e-03
+    TL5.L = 1.443456149475473e-03
+    TL8.L = 1.258517664571298e-03
+
+SP Optim1[1].SP1[1293] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1293  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1293:
+  CurrentEF: 209.581454686425
+  Optimization variables:
+    CLin4.L = 7.552712665100616e-03
+    CLin4.S = 376.5767707408493e-06
+    step1w2 = 9.999969244330867e-03
+    step3w1 = 436.8450827802839e-06
+    step4w1 = 616.5347926662469e-06
+    tee1w1 = 9.917147107457685e-03
+    tee1w2 = 9.983077656563444e-03
+    tee1w3 = 9.960739095973847e-03
+    TL3.L = 200.1543039938881e-06
+    TL4.L = 2.771378759531439e-03
+    TL5.L = 1.443102846923486e-03
+    TL8.L = 1.258546133588094e-03
+
+SP Optim1[1].SP1[1294] <RF_Double_Stage_Amplifier_lib:polar_in:schematic>  optIter=1294  freq=(10 MHz->5.5 GHz)
+
+Iteration/Trial #1294:
+  CurrentEF: 209.581454534382
+  Optimization variables:
+    CLin4.L = 7.552687513511671e-03
+    CLin4.S = 376.5077329586326e-06
+    step1w2 = 9.999970665071498e-03
+    step3w1 = 436.9122292510873e-06
+    step4w1 = 616.4864766923437e-06
+    tee1w1 = 9.917160861831351e-03
+    tee1w2 = 9.98307627588073e-03
+    tee1w3 = 9.960741078876295e-03
+    TL3.L = 200.1540123276115e-06
+    TL4.L = 2.769256939895766e-03
+    TL5.L = 1.442662918077306e-03
+    TL8.L = 1.258549495552661e-03
+Gradient optimizer ends after 1294 trials and 2440 evaluations with EF=2.096e+02
+Optim1[1] terminated due to no more improvement 
+
+Resource usage:
+  Total stopwatch time     =    45.46 seconds.
+
