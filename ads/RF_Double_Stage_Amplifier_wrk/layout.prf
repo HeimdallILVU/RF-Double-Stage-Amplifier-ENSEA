@@ -2,7 +2,7 @@ pathBend 5
 pathMiterPercent 30.000000
 pathEndCap 2
 pathLayerName default
-textFontName Arial For CAE
+textFontName Roboto
 textPoint 12
 textJustification 9
 textAngle 0.000000
@@ -10,7 +10,7 @@ textAbsolute 0
 instNameLayer 1
 instIDLayer 1
 instParam1Layer 1
-instTextFontName Arial For CAE
+instTextFontName Roboto
 instTextPoint 12
 instTextRows 15
 instTextAddOptionalParams 0
@@ -47,12 +47,12 @@ selectBoxSize 10.000000
 selectPointSize 8.000000
 entryMode 0
 rotationIncrement 90.000000
-gridDisplayX 2
-gridDisplayY 2
+gridDisplayX 200
+gridDisplayY 200
 gridDisplayOn 1
 gridDisplaySameXY 1
-majorGridDisplayX 5
-majorGridDisplayY 5
+majorGridDisplayX 50
+majorGridDisplayY 50
 majorGridDisplayOn 1
 gridDisplayMode 0
 gridSnapOn 1

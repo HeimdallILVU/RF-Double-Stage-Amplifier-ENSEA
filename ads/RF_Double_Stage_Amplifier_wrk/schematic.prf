@@ -145,8 +145,8 @@ dsePrefLayoutLayer default
 newRouteAroundInstSym 1
 onscreenCoordMode 2
 editInPlaceBoxColor 3
-dseFixAllComponents 0
-dseKeepNets 0
+dseFixAllComponents 1
+dseKeepNets 1
 instTextTuneFormat 1
 instTextOptFormat 1
 instTextStatFormat 1
