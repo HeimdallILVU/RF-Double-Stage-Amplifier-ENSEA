@@ -1,30 +1,40 @@
 
-hpeesofsim (*) 610.shp Aug 20 2024, MINT version 5
-    (64-bit windows built: Tue Aug 20, 2024 21:40:41 +0000)
+hpeesofsim (*) 570.shp Jul 19 2022, MINT version 5
+    (64-bit linux built: Tue Jul 19, 2022 14:06:28 +0000)
 
 
-***** Simulation started at Thu Dec 12 17:59:30 2024
-      Running on host: "Heimdall-Laptop"
-      In Directory: "C:\Users\jerem\Documents\git\RF-Double-Stage-Amplifier-ENSEA\ads\RF_Double_Stage_Amplifier_wrk\data"
-      Process ID: 10472
+***** Simulation started at Tue, Dec 17 2024 08:42:00 +0100
+      Running on host: "d289-pc2.smbedu.ensea.fr"
+      In Directory: "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/RF_Double_Stage_Amplifier_wrk/data"
+      User: "jerefleu", Process ID: 21112
 
 Pt DC convergence is used.
 
 SP SP2[1] <RF_Double_Stage_Amplifier_lib:Impedance Matching Cascade Inter Opti:schematic>   freq=(100 MHz->9 GHz)
 Warning detected by hpeesofsim during SP analysis 'SP2'.
-    UserValue(7.548192) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee3'
-
-
-Warning detected by hpeesofsim during SP analysis 'SP2'.
-    UserValue(7.999995) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee11'
-
+    UserValue(0.009275) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W3' in `Tee3'
 
 Warning detected by hpeesofsim during SP analysis 'SP2'.
-    UserValue(16.021441) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee10'
+    UserValue(41.794100) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee3'
 
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(0.009968) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W2' in `Tee11'
+
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(10.285388) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee11'
+
+Warning detected by hpeesofsim during SP analysis 'SP2'.
+    UserValue(16.006182) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee10'
 
 
 
 Resource usage:
-  Total stopwatch time     =     1.16 seconds.
+    User time                 =     0.68 seconds.
+    System time               =     0.18 seconds.
+    Total CPU time            =     0.85 seconds.
+    Simulation stopwatch time =     1.21 seconds.
+    Total stopwatch time      =     2.58 seconds.
+
+    Physical memory used: 98.6 MBytes.
+    Incremental virtual memory (data only) used:  37.4 MBytes.
 

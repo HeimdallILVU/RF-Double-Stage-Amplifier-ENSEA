@@ -1,11 +1,11 @@
 <!DOCTYPE Materials>
 <Materials>
     <Conductors>
-        <Conductor real="5.8e7 Siemens/m" heat_capacity="2.49E+06" electron_path="" mur_imag="" thermal_conductivity_in_z="" parmtype="1" tc2="" name="Copper" thermal_conductivity="401" imag="" tc1="" tnom="" mur_real="1"/>
+        <Conductor heat_capacity="2.49E+06" thermal_conductivity_in_z="" tnom="" name="Copper" parmtype="1" tc1="" mur_real="1" tc2="" mur_imag="" electron_path="" thermal_conductivity="401" real="5.8e7 Siemens/m" imag=""/>
     </Conductors>
     <Dielectrics>
-        <Dielectric er_imag="" heat_capacity="1.73E+06" er_real="9.6" electron_path="" mur_imag="" thermal_conductivity_in_z="" er_loss="" lowfreq="1 KHz" name="Alumina" thermal_conductivity="25.25" valuefreq="1 GHz" loss_type="1" highfreq="1 THz" mur_real="1"/>
-        <Dielectric er_imag="" heat_capacity="1.73E+06" er_real="2.55" electron_path="" mur_imag="" thermal_conductivity_in_z="" er_loss="0.00028" lowfreq="1 KHz" name="teflon" thermal_conductivity="52" valuefreq="9.61 GHz" loss_type="1" highfreq="1 THz" mur_real="1"/>
+        <Dielectric heat_capacity="1.73E+06" thermal_conductivity_in_z="" er_loss="" name="Alumina" valuefreq="1 GHz" highfreq="1 THz" mur_real="1" lowfreq="1 KHz" mur_imag="" er_imag="" electron_path="" thermal_conductivity="25.25" loss_type="1" er_real="9.6"/>
+        <Dielectric heat_capacity="1.73E+06" thermal_conductivity_in_z="" er_loss="0.00028" name="teflon" valuefreq="9.61 GHz" highfreq="1 THz" mur_real="1" lowfreq="1 KHz" mur_imag="" er_imag="" electron_path="" thermal_conductivity="52" loss_type="1" er_real="2.55"/>
     </Dielectrics>
     <Semiconductors/>
     <roughness/>
