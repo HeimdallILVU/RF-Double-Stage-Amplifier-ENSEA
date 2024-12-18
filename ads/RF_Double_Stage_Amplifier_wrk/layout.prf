@@ -2,7 +2,7 @@ pathBend 5
 pathMiterPercent 30.000000
 pathEndCap 2
 pathLayerName default
-textFontName Roboto
+textFontName Arial For CAE
 textPoint 12
 textJustification 9
 textAngle 0.000000
@@ -10,7 +10,7 @@ textAbsolute 0
 instNameLayer 1
 instIDLayer 1
 instParam1Layer 1
-instTextFontName Roboto
+instTextFontName Arial For CAE
 instTextPoint 12
 instTextRows 15
 instTextAddOptionalParams 0
@@ -26,15 +26,15 @@ scaleX 1.000000
 scaleY 1.000000
 toArcRadius 3.000000
 miterVertexLength 10.000000
-portOrientation 0.000000
+portOrientation 10000.000000
 plottingDepth 10
 bboxColor 3
 selectColor 99
 highlightColor 66
 pinColor 54
-pinSize 5.000000
+pinSize 10.000000
 teeColor 3
-teeSize 5.000000
+teeSize 10.000000
 portColor 5
 backgroundColor 0
 foregroundColor 41

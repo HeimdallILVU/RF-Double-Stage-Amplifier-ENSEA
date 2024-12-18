@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="40" Version="100">
+<ADSWorkspace Revision="49" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <Library Name="ads_standard_layers_ic" />
@@ -63,7 +63,7 @@
             <Folder Name="Real Comp">
                 <Cell Name="RF_Double_Stage_Amplifier_lib:Real Comp cap" />
             </Folder>
-            <Substrate Name="test_model_ce3512k2_lib:teflon_762um_v1.subst" />
+            <Substrate Name="test_model_ce3512k2_lib:teflon_762um_v1.subst" State="1" />
             <Substrate Name="RF_Double_Stage_Amplifier_lib:teflon_762um_v2.subst" />
         </Folder>
         <Folder Name="Maxime">
@@ -265,6 +265,9 @@
         <Dataset Name="__simdata118141.ds" />
         <Data_Files Name="__simdata118141.ds" />
         <Preferences Name="ads_sources_lay.prf" />
+        <LibDM Name="JTI_CAPS_S_Series:data.dm" />
+        <Layer_Preference Name="ads_standard_layers.layerprf" />
+        <Substrate Name="RF_Double_Stage_Amplifier_lib:teflon_762um_v3.subst" />
         <Cell Name="RF_Double_Stage_Amplifier_lib:DA_LCBandpassMatch1_Impedance_Matching_Cascade_Inter_Synthesis_2" />
         <Cell Name="RF_Double_Stage_Amplifier_lib:DA_LCBandpassMatch2_Impedance_Matching_Cascade_Inter_Synthesis_2" />
         <Cell Name="RF_Double_Stage_Amplifier_lib:DA_LCBandpassMatch_Impedance_Matching_Cascade_Inter_Synthesis" />
@@ -277,5 +280,16 @@
         <Cell Name="test_model_ce3512k2_lib:CEL_CE3512K2_modele" />
         <Cell Name="test_model_ce3512k2_lib:pad_trasistor" />
         <LibDM Name="JTI_CAPS_S_Series:data.dm" />
+        <Log Name="readegs.log" />
+        <Dataset Name="Real_Comp_cap_2_MomUW.ds" />
+        <Data_Files Name="Real_Comp_cap_2_MomUW.ds" />
+        <Cell Name="test_model_ce3512k2_lib:Validation_layout" />
+        <Dataset Name="Real_Comp_cap_2_MomUW_a.ds" />
+        <Data_Files Name="Real_Comp_cap_2_MomUW_a.ds" />
+        <Cell Name="test_model_ce3512k2_lib:Real Comp cap 3" />
+        <Dataset Name="Validation_layout.ds" />
+        <Data_Files Name="Validation_layout_data/logFile.txt" />
+        <Data_Files Name="Validation_layout.ds" />
+        <Data_Display Name="Validation_layout.dds" />
     </Workspace>
 </ADSWorkspace>

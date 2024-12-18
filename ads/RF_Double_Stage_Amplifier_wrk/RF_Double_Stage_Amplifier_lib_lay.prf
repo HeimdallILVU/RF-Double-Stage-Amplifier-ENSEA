@@ -8,7 +8,7 @@ instTextHeight 10.000000
 gridSnapX 50.000000
 gridSnapY 50.000000
 tapLength 25.000000
-portSize 4.000000
+portSize 1000.000000
 minVertexDistance 0.000000
 unitsFreq 0
 unitsRes 1

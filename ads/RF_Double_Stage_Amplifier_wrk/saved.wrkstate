@@ -1,5 +1,9 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Layout lib="RF_Double_Stage_Amplifier_lib" x1="0" height="977" width="1920" view="layout" cell="Real Comp cap 2" y1="28" geom="1,0,2,960,65,960,977,1920,1080"/>
+        <DDS name="Validation_layout.dds"/>
+        <DDS name="Real Comp cap 2.dds"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>
