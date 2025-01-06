@@ -1,0 +1,11 @@
+decl JTI_CAPS_S_Series_PATH = designKitRecord[1];
+decl JTI_CAPS_S_Series_BITMAP_DIR = sprintf("%s/circuit/bitmaps/",JTI_CAPS_S_Series_PATH);
+decl JTI_CAPS_S_Series_CIRCUIT_ARTWORK_DIR  = sprintf("%s/circuit/artwork/",JTI_CAPS_S_Series_PATH);
+decl JTI_CAPS_S_Series_CIRCUIT_MODEL_DIR = sprintf("%s/circuit/models/",JTI_CAPS_S_Series_PATH);
+decl JTI_CAPS_S_Series_CIRCUIT_DATA_DIR = sprintf("%s/circuit/data/",JTI_CAPS_S_Series_PATH);
+decl JTI_CAPS_S_Series_DE_AEL_DIR = sprintf("%s/de/ael/",JTI_CAPS_S_Series_PATH);
+
+//load artwork macro AEL files 
+
+//load palette.ael 
+load(strcat(JTI_CAPS_S_Series_DE_AEL_DIR,"palette"));

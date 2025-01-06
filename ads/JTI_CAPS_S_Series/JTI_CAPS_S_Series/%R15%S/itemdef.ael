@@ -1,0 +1,538 @@
+set_simulator_type(1); 
+set_design_type(analogRFnet); 
+
+
+/*---------forms and formset------------------*/
+
+
+
+
+
+/*---------global variables------------------*/
+
+decl type_default = "0.1pF"; 
+
+/*---------forms and formset------------------*/
+
+create_constant_form("0.1pF","0.1pF", 0, " ", "0.1pF");
+create_constant_form("0.2pF","0.2pF", 0, " ", "0.2pF");
+create_constant_form("0.3pF","0.3pF", 0, " ", "0.3pF");
+create_constant_form("0.4pF","0.4pF", 0, " ", "0.4pF");
+create_constant_form("0.5pF","0.5pF", 0, " ", "0.5pF");
+create_constant_form("0.6pF","0.6pF", 0, " ", "0.6pF");
+create_constant_form("0.7pF","0.7pF", 0, " ", "0.7pF");
+create_constant_form("0.8pF","0.8pF", 0, " ", "0.8pF");
+create_constant_form("0.9pF","0.9pF", 0, " ", "0.9pF");
+create_constant_form("1.0pF","1.0pF", 0, " ", "1.0pF");
+create_constant_form("1.1pF","1.1pF", 0, " ", "1.1pF");
+create_constant_form("1.2pF","1.2pF", 0, " ", "1.2pF");
+create_constant_form("1.3pF","1.3pF", 0, " ", "1.3pF");
+create_constant_form("1.4pF","1.4pF", 0, " ", "1.4pF");
+create_constant_form("1.5pF","1.5pF", 0, " ", "1.5pF");
+create_constant_form("1.6pF","1.6pF", 0, " ", "1.6pF");
+create_constant_form("1.7pF","1.7pF", 0, " ", "1.7pF");
+create_constant_form("1.8pF","1.8pF", 0, " ", "1.8pF");
+create_constant_form("1.9pF","1.9pF", 0, " ", "1.9pF");
+create_constant_form("2.0pF","2.0pF", 0, " ", "2.0pF");
+create_constant_form("2.1pF","2.1pF", 0, " ", "2.1pF");
+create_constant_form("2.2pF","2.2pF", 0, " ", "2.2pF");
+create_constant_form("2.4pF","2.4pF", 0, " ", "2.4pF");
+create_constant_form("2.7pF","2.7pF", 0, " ", "2.7pF");
+create_constant_form("3.0pF","3.0pF", 0, " ", "3.0pF");
+create_constant_form("3.3pF","3.3pF", 0, " ", "3.3pF");
+create_constant_form("3.6pF","3.6pF", 0, " ", "3.6pF");
+create_constant_form("3.9pF","3.9pF", 0, " ", "3.9pF");
+create_constant_form("4.3pF","4.3pF", 0, " ", "4.3pF");
+create_constant_form("4.7pF","4.7pF", 0, " ", "4.7pF");
+create_constant_form("5.1pF","5.1pF", 0, " ", "5.1pF");
+create_constant_form("5.6pF","5.6pF", 0, " ", "5.6pF");
+create_constant_form("6.2pF","6.2pF", 0, " ", "6.2pF");
+create_constant_form("6.8pF","6.8pF", 0, " ", "6.8pF");
+create_constant_form("7.5pF","7.5pF", 0, " ", "7.5pF");
+create_constant_form("8.2pF","8.2pF", 0, " ", "8.2pF");
+create_constant_form("9.1pF","9.1pF", 0, " ", "9.1pF");
+create_constant_form("10pF","10pF", 0, " ", "10pF");
+create_constant_form("11pF","11pF", 0, " ", "11pF");
+create_constant_form("12pF","12pF", 0, " ", "12pF");
+create_constant_form("13pF","13pF", 0, " ", "13pF");
+create_constant_form("15pF","15pF", 0, " ", "15pF");
+create_constant_form("16pF","16pF", 0, " ", "16pF");
+create_constant_form("18pF","18pF", 0, " ", "18pF");
+create_constant_form("20pF","20pF", 0, " ", "20pF");
+create_constant_form("22pF","22pF", 0, " ", "22pF");
+create_constant_form("24pF","24pF", 0, " ", "24pF");
+create_constant_form("27pF","27pF", 0, " ", "27pF");
+create_constant_form("30pF","30pF", 0, " ", "30pF");
+create_constant_form("33pF","33pF", 0, " ", "33pF");
+create_constant_form("36pF","36pF", 0, " ", "36pF");
+create_constant_form("39pF","39pF", 0, " ", "39pF");
+create_constant_form("43pF","43pF", 0, " ", "43pF");
+create_constant_form("47pF","47pF", 0, " ", "47pF");
+create_constant_form("51pF","51pF", 0, " ", "51pF");
+create_constant_form("56pF","56pF", 0, " ", "56pF");
+create_constant_form("62pF","62pF", 0, " ", "62pF");
+create_constant_form("68pF","68pF", 0, " ", "68pF");
+create_constant_form("75pF","75pF", 0, " ", "75pF");
+create_constant_form("82pF","82pF", 0, " ", "82pF");
+create_constant_form("91pF","91pF", 0, " ", "91pF");
+create_constant_form("100pF","100pF", 0, " ", "100pF");
+create_constant_form("110pF","110pF", 0, " ", "110pF");
+create_constant_form("120pF","120pF", 0, " ", "120pF");
+create_constant_form("130pF","130pF", 0, " ", "130pF");
+create_constant_form("150pF","150pF", 0, " ", "150pF");
+create_constant_form("160pF","160pF", 0, " ", "160pF");
+create_constant_form("180pF","180pF", 0, " ", "180pF");
+create_constant_form("200pF","200pF", 0, " ", "200pF");
+create_constant_form("220pF","220pF", 0, " ", "220pF");
+
+create_form_set("formset_type", "0.1pF", "0.2pF", "0.3pF", "0.4pF"
+	, "0.5pF", "0.6pF", "0.7pF"
+	, "0.8pF", "0.9pF", "1.0pF"
+	, "1.1pF", "1.2pF", "1.3pF"
+	, "1.4pF", "1.5pF", "1.6pF"
+	, "1.7pF", "1.8pF", "1.9pF"
+	, "2.0pF", "2.1pF", "2.2pF"
+	, "2.4pF", "2.7pF", "3.0pF"
+	, "3.3pF", "3.6pF", "3.9pF"
+	, "4.3pF", "4.7pF", "5.1pF"
+	, "5.6pF", "6.2pF", "6.8pF"
+	, "7.5pF", "8.2pF", "9.1pF"
+	, "10pF", "11pF", "12pF"
+	, "13pF", "15pF", "16pF"
+	, "18pF", "20pF", "22pF"
+	, "24pF", "27pF", "30pF"
+	, "33pF", "36pF", "39pF"
+	, "43pF", "47pF", "51pF"
+	, "56pF", "62pF", "68pF"
+	, "75pF", "82pF", "91pF"
+	, "100pF", "110pF", "120pF"
+	, "130pF", "150pF", "160pF"
+	, "180pF", "200pF", "220pF"
+	);
+
+
+
+/*-------modified value parameter callback function--------*/
+defun R15S_parm_modifiedValue_cb ( cbP, parmName, itemInfoP ) 
+{ 
+  decl parmList = NULL; 
+  decl type; 
+  type = pcb_get_form_value(itemInfoP, "Type");
+ 
+ if(parmName == "Type")
+  {
+    if(type == "0.1pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S0R1_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "0.2pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S0R2_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "0.3pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S0R3_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "0.4pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S0R4_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "0.5pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S0R5_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "0.6pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S0R6_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "0.7pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S0R7_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "0.8pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S0R8_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "0.9pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S0R9_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "1.0pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S1R0_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "1.1pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S1R1_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "1.2pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S1R2_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "1.3pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S1R3_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "1.4pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S1R4_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "1.5pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S1R5_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "1.6pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S1R6_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "1.7pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S1R7_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "1.8pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S1R8_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "1.9pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S1R9_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "2.0pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S2R0_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "2.1pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S2R1_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "2.2pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S2R2_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "2.4pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S2R4_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "2.7pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S2R7_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "3.0pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S3R0_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "3.3pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S3R3_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "3.6pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S3R6_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "3.9pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S3R9_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "4.3pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S4R3_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "4.7pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S4R7_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "5.1pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S5R1_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "5.6pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S5R6_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "6.2pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S6R2_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "6.8pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S6R8_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "7.5pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S7R5_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "8.2pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S8R2_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "9.1pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S9R1_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "10pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S100_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "11pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S110_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "12pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S120_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "13pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S130_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "15pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S150_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "16pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S160_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "18pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S180_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "20pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S200_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "22pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S220_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "24pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S240_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "27pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S270_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "30pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S300_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "33pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S330_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "36pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S360_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "39pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S390_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "43pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S430_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "47pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S470_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "51pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S510_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "56pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S560_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "62pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S620_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "68pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S680_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "75pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S750_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "82pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S820_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "91pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S910_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "100pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S101_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "110pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S111_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "120pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S121_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "130pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S131_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "150pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S151_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "160pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S161_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "180pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S181_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "200pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S201_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+    else if(type == "220pF")
+    {
+      parmList = pcb_set_string(parmList, "File", "\"251R15S221_H-SER.s2p\"");
+      parmList = pcb_set_string(parmList, "Temp", "25");
+    } 
+  }
+  return(parmList);
+}
+
+decl R15S_SPCompNetlistFmt = ""; 
+decl R15S_net=" "; 
+R15S_net = strcat(JTI_CAPS_S_Series_CIRCUIT_MODEL_DIR, "R15S_cktName.net");
+R15S_SPCompNetlistFmt= strcat("#include \"",R15S_net, "\" \n%d:%t%# %44?0%:%31?%C%:_net%c%;%;%e %r%b%8?%29?%:%30?%p%:%k%?[%1i]%;=%p %;%;%e%e");
+
+create_item("R15S" , 	 //Component name 
+	     "R15S 0805 S-Series Low ESR Capacitor Multi-Layer High-Q Capacitors", 	 //Description 
+	     "SNP", 	 //Instance Prefix 
+	     NULL, 	 //attribute 
+	     NULL, 	 //priority 
+	     NULL, 	 //iconName 
+	     standard_dialog, 	 //dialogCode 
+	     " ", 	 //dialogData 
+	     R15S_SPCompNetlistFmt, 	 //netlistFormat 
+	     "R15S_cktName", 	 //netlistData 
+	     ComponentAnnotFmt, 	 //displayFormat 
+	     "symbol", 	 //symbolName 
+	     no_artwork, //artworkType
+	     NULL, 	 //artworkData 
+	     ITEM_PRIMITIVE_EX 	 //extraAttribute 
+	     ,create_parm("File", 	 //Param name 
+		        "No Description Entered.", 	 //Param Desc 
+		        PARM_STRING | PARM_NOT_EDITED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        STRING_UNIT,
+		        prm("StdForm", "\"251R15S0R1_H-SER.s2p\"")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "R15S_parm_modifiedValue_cb", 	 // function name 
+						  "File", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+	     ,create_parm("Temp", 	 //Param name 
+		        "No Description Entered.", 	 //Param Desc 
+		        PARM_NOT_EDITED,	 //attrib 
+		        "StdFileFormSet", 	 //formset 
+		        TEMPERATURE_UNIT,
+		        prm("StdForm", "25")
+			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "R15S_parm_modifiedValue_cb", 	 // function name 
+						  "Temp", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+
+	     ,create_parm("Type", 	 //Param name 
+		        "Component type",	 //Param Desc 
+		        PARM_NOT_NETLISTED | PARM_DISCRETE_VALUE,
+		        "formset_type", 	 //formset 
+		        UNITLESS_UNIT,
+		        prm(type_default)		 //defaultValue 
+ 			  ,list(dm_create_cb(PARM_MODIFIED_CB,	 //parameter modified value 
+						  "R15S_parm_modifiedValue_cb", 	 // function name 
+						  "Type", 		 //clientData 
+						   TRUE 
+				 )
+			  )
+	     )
+);

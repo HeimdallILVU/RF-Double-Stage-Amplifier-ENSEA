@@ -1,0 +1,4 @@
+# Library Defs for editing JTI_CAPS_S_Series design kit 
+# Remove this from the design kit before distributing to customers. 
+DEFINE JTI_CAPS_S_Series ./JTI_CAPS_S_Series
+ASSIGN JTI_CAPS_S_Series libMode shared 

@@ -1,0 +1,46 @@
+
+hpeesofsim (*) 570.shp Jul 19 2022, MINT version 5
+    (64-bit linux built: Tue Jul 19, 2022 14:06:28 +0000)
+
+
+***** Simulation started at Tue, Dec 17 2024 11:42:46 +0100
+      Running on host: "d289-pc2.smbedu.ensea.fr"
+      In Directory: "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/RF_Double_Stage_Amplifier_wrk/data"
+      User: "jerefleu", Process ID: 21223
+
+Pt DC convergence is used.
+
+SP SP3[1] <RF_Double_Stage_Amplifier_lib:Real Comp cap 2:schematic>   freq=(10 MHz->9 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(11.783729) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee10'
+
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(0.009786) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W2' in `Tee6'
+
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(0.000045) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W3' in `Tee6'
+
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(218.803533) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee6'
+
+Warning detected by hpeesofsim during SP analysis `SP3'.
+    The DC (0 Hz) value has not been specified in the Touchstone file
+    '/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series/circuit/data/251R15S221_H-SER.s2p'.
+
+Warning detected by hpeesofsim during SP analysis `SP3'.
+    Data in the Touchstone file `/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series/circuit/data/251R15S221_H-SER.s2p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+
+
+
+Resource usage:
+    User time                 =     2.15 seconds.
+    System time               =     0.74 seconds.
+    Total CPU time            =     2.89 seconds.
+    Simulation stopwatch time =     4.05 seconds.
+    Total stopwatch time      =     5.52 seconds.
+
+    Physical memory used: 104 MBytes.
+    Incremental virtual memory (data only) used:  45 MBytes.
+

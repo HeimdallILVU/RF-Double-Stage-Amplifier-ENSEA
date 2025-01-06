@@ -1,0 +1,8 @@
+<?xml version="1.0" ?> 
+<LIBRARIES> 
+ <LIBRARY> 
+  <NAME>JTI_CAPS_S_Series</NAME> 
+  <CATEGORY>DL</CATEGORY> 
+  <RECORD_FILES>JTI_CAPS_S_Series.rec</RECORD_FILES> 
+ </LIBRARY> 
+</LIBRARIES>

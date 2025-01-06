@@ -1,0 +1,26 @@
+<COMPONENTS>
+    <COMPONENT>
+        <NAME>R07S</NAME>
+        <DESCRIPTION>R07S 0402 S-Series Low ESR Capacitor Multi-Layer High-Q Capacitors</DESCRIPTION>
+        <VENDOR>Johanson Technology Inc.</VENDOR>
+        <LIBRARY>JTI_CAPS_S_Series</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.johansontechnology.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>R14S</NAME>
+        <DESCRIPTION>R14S 0603 S-Series Low ESR Capacitor Multi-Layer High-Q Capacitors</DESCRIPTION>
+        <VENDOR>Johanson Technology Inc.</VENDOR>
+        <LIBRARY>JTI_CAPS_S_Series</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.johansontechnology.com</URL>
+    </COMPONENT>
+    <COMPONENT>
+        <NAME>R15S</NAME>
+        <DESCRIPTION>R15S 0805 S-Series Low ESR Capacitor Multi-Layer High-Q Capacitors</DESCRIPTION>
+        <VENDOR>Johanson Technology Inc.</VENDOR>
+        <LIBRARY>JTI_CAPS_S_Series</LIBRARY>
+        <PLACEMENT>Both</PLACEMENT>
+        <URL>http://www.johansontechnology.com</URL>
+    </COMPONENT>
+</COMPONENTS>

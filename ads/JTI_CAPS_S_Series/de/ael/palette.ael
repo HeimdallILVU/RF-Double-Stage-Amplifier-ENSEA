@@ -1,0 +1,27 @@
+de_define_library_palette("JTI_CAPS_S_Series", SCHEMATIC_WINDOW, "analogRF_net",
+			 "JTI_CAPs", "High-Q MLCC", 0
+
+				,list(
+				"JTI_CAPS_S_Series"
+				,"R07S"
+				,""
+				,"https://www.johansontechnology.com/r07s"
+				,strcat(JTI_CAPS_S_Series_BITMAP_DIR,"C_R07S")
+				)
+				,list(
+				"JTI_CAPS_S_Series"
+				,"R14S"
+				,""
+				,"https://www.johansontechnology.com/r14s"
+				,strcat(JTI_CAPS_S_Series_BITMAP_DIR,"C_R14S")
+				)
+				,list(
+				"JTI_CAPS_S_Series"
+				,"R15S"
+				,""
+				,"https://www.johansontechnology.com/r15s"
+				,strcat(JTI_CAPS_S_Series_BITMAP_DIR,"C_R15S")
+				)
+				);
+
+

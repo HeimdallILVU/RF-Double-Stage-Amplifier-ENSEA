@@ -1,0 +1,3 @@
+# Library Defs for JTI_CAPS_S_Series design kit 
+DEFINE JTI_CAPS_S_Series ./JTI_CAPS_S_Series
+ASSIGN JTI_CAPS_S_Series libMode readOnly 

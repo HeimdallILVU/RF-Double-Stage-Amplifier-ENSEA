@@ -1,0 +1,34 @@
+
+hpeesofsim (*) 570.shp Jul 19 2022, MINT version 5
+    (64-bit linux built: Tue Jul 19, 2022 14:06:28 +0000)
+
+
+***** Simulation started at Tue, Dec 17 2024 11:11:42 +0100
+      Running on host: "d289-pc2.smbedu.ensea.fr"
+      In Directory: "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/RF_Double_Stage_Amplifier_wrk/data"
+      User: "jerefleu", Process ID: 32605
+
+Pt DC convergence is used.
+
+SP SP3[1] <RF_Double_Stage_Amplifier_lib:Real Comp cap:schematic>   freq=(10 MHz->9 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(5.274313) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee10'
+
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(0.009503) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W2' in `Tee6'
+
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(11.984945) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee6'
+
+
+
+Resource usage:
+    User time                 =     2.08 seconds.
+    System time               =     0.71 seconds.
+    Total CPU time            =     2.80 seconds.
+    Simulation stopwatch time =     5.58 seconds.
+    Total stopwatch time      =    22.74 seconds.
+
+    Physical memory used: 101 MBytes.
+    Incremental virtual memory (data only) used:  37.2 MBytes.
+
