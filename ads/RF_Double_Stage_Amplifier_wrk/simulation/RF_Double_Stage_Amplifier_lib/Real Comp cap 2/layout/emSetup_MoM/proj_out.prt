@@ -1,63 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <port_setup version="1.1">
-  <calibration_group_list>
-    <calibration_group id="1">
-      <type>TML</type>
-      <auto_split>true</auto_split>
-    </calibration_group>
-    <calibration_group id="2">
-      <type>Lumped</type>
-      <auto_split>true</auto_split>
-    </calibration_group>
-    <calibration_group id="3">
-      <type>Lumped</type>
-      <auto_split>true</auto_split>
-    </calibration_group>
-    <calibration_group id="4">
-      <type>TML</type>
-      <auto_split>true</auto_split>
-    </calibration_group>
-    <calibration_group id="5">
-      <type>TML</type>
-      <auto_split>true</auto_split>
-    </calibration_group>
-    <calibration_group id="6">
-      <type>TML</type>
-      <auto_split>true</auto_split>
-    </calibration_group>
-    <calibration_group id="7">
-      <type>TML</type>
-      <auto_split>true</auto_split>
-    </calibration_group>
-    <calibration_group id="8">
-      <type>Lumped</type>
-      <auto_split>true</auto_split>
-    </calibration_group>
-    <calibration_group id="9">
-      <type>Lumped</type>
-      <auto_split>true</auto_split>
-    </calibration_group>
-    <calibration_group id="10">
-      <type>Lumped</type>
-      <auto_split>true</auto_split>
-    </calibration_group>
-    <calibration_group id="11">
-      <type>Lumped</type>
-      <auto_split>true</auto_split>
-    </calibration_group>
-    <calibration_group id="12">
-      <type>Lumped</type>
-      <auto_split>true</auto_split>
-    </calibration_group>
-    <calibration_group id="13">
-      <type>TML</type>
-      <auto_split>true</auto_split>
-    </calibration_group>
-    <calibration_group id="14">
-      <type>Lumped</type>
-      <auto_split>true</auto_split>
-    </calibration_group>
-  </calibration_group_list>
   <port_list>
     <port id="1">
       <name>P1</name>
@@ -66,7 +8,6 @@
         <real>50</real>
         <imag>0</imag>
       </impedance>
-      <calibration_group_ref ref="13" />
     </port>
     <port id="2">
       <name>P2</name>
@@ -75,7 +16,6 @@
         <real>50</real>
         <imag>0</imag>
       </impedance>
-      <calibration_group_ref ref="1" />
     </port>
     <port id="3">
       <name>P3</name>
@@ -84,7 +24,6 @@
         <real>50</real>
         <imag>0</imag>
       </impedance>
-      <calibration_group_ref ref="5" />
     </port>
     <port id="4">
       <name>P4</name>
@@ -93,7 +32,6 @@
         <real>50</real>
         <imag>0</imag>
       </impedance>
-      <calibration_group_ref ref="6" />
     </port>
     <port id="5">
       <name>P5</name>
@@ -102,7 +40,6 @@
         <real>50</real>
         <imag>0</imag>
       </impedance>
-      <calibration_group_ref ref="4" />
     </port>
     <port id="6">
       <name>P6</name>
@@ -111,7 +48,6 @@
         <real>50</real>
         <imag>0</imag>
       </impedance>
-      <calibration_group_ref ref="7" />
     </port>
     <port id="7">
       <name>P7</name>
@@ -120,7 +56,6 @@
         <real>50</real>
         <imag>0</imag>
       </impedance>
-      <calibration_group_ref ref="3" />
     </port>
     <port id="8">
       <name>P8</name>
@@ -129,7 +64,6 @@
         <real>50</real>
         <imag>0</imag>
       </impedance>
-      <calibration_group_ref ref="14" />
     </port>
     <port id="9">
       <name>P9</name>
@@ -138,7 +72,6 @@
         <real>50</real>
         <imag>0</imag>
       </impedance>
-      <calibration_group_ref ref="12" />
     </port>
     <port id="10">
       <name>P10</name>
@@ -147,7 +80,6 @@
         <real>50</real>
         <imag>0</imag>
       </impedance>
-      <calibration_group_ref ref="11" />
     </port>
     <port id="11">
       <name>P11</name>
@@ -156,7 +88,6 @@
         <real>50</real>
         <imag>0</imag>
       </impedance>
-      <calibration_group_ref ref="2" />
     </port>
     <port id="12">
       <name>P12</name>
@@ -165,7 +96,6 @@
         <real>50</real>
         <imag>0</imag>
       </impedance>
-      <calibration_group_ref ref="8" />
     </port>
     <port id="13">
       <name>P13</name>
@@ -174,7 +104,6 @@
         <real>50</real>
         <imag>0</imag>
       </impedance>
-      <calibration_group_ref ref="10" />
     </port>
     <port id="14">
       <name>P14</name>
@@ -183,7 +112,6 @@
         <real>50</real>
         <imag>0</imag>
       </impedance>
-      <calibration_group_ref ref="9" />
     </port>
     <port id="15">
       <name>P15</name>

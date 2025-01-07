@@ -1,5 +1,5 @@
 jobName=EmPpMsgs
 jobType=emprep
-designName=RF_Double_Stage_Amplifier_lib:Real Comp cap 2:layout
+designName=RF_Double_Stage_Amplifier_lib:Real Comp cap 5:layout
 ruleFilePath=
 addInfo="EM preprocessor messages displayed as DRC errors"

@@ -1,0 +1,34 @@
+==============================================================================
+
+                  ------ MOMENTUM STATISTICS (MW mode) ------
+
+              Momentum MomEngine_64 2025.00.341 (*) built: Aug 19 2024
+                           Tue Jan  7 00:33:10 2025
+
+==============================================================================
+
+
+------------------------------------------------------------------------------
+MESH
+------------------------------------------------------------------------------
+
+STATISTICS
+----------
+ Triangular cells                    :     89
+ Rectangular cells                   :    680
+ Non-rectangular quadrilateral cells :    399
+ Via cells                           :      0
+ Lumped/wire vias                    :      0
+ Bondwires                           :      0
+ Edge currents                       :      0
+
+RESOURCES
+---------
+ Physical memory :    64.19 MB
+ Virtual memory  :    67.48 MB
+ Page faults     :       16670
+ User Time       :    0h 0m 1s
+ Elapsed Time    :    0h 0m 3s
+
+==============================================================================
+

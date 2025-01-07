@@ -1,0 +1,35 @@
+
+hpeesofsim (*) 610.shp Aug 20 2024, MINT version 5
+    (64-bit windows built: Tue Aug 20, 2024 21:40:41 +0000)
+
+
+***** Simulation started at Tue Jan  7 00:38:04 2025
+      Running on host: "Heimdall-Laptop"
+      In Directory: "C:\Users\jerem\Documents\git\RF-Double-Stage-Amplifier-ENSEA\ads\RF_Double_Stage_Amplifier_wrk\data"
+      Process ID: 140388
+
+Pt DC convergence is used.
+
+SP SP3[1] <test_model_ce3512k2_lib:Validation_layout_2:schematic>   freq=(10 MHz->9 GHz)
+Warning detected by hpeesofsim during SP analysis `SP3'.
+    The DC (0 Hz) value has not been specified in the Touchstone file
+    'C:/users/jerem/documents/git/rf-double-stage-amplifier-ensea/ads/jti_caps_s_series/circuit/data/251R15S221_H-SER.s2p'.
+
+Warning detected by hpeesofsim during SP analysis `SP3'.
+    Data in the Touchstone file `C:/users/jerem/documents/git/rf-double-stage-amplifier-ensea/ads/jti_caps_s_series/circuit/data/251R15S221_H-SER.s2p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+
+Warning detected by hpeesofsim during SP analysis `SP3'.
+    COMPONENT `X4.em_data':
+       Simulator uses frequency higher than frequency range for model. The S-parameters are extrapolated.
+
+Warning detected by hpeesofsim during SP analysis `SP3'.
+    COMPONENT `X4.em_data':
+       S-parameter passivity is enforced.
+
+
+
+Resource usage:
+  Total stopwatch time     =     2.31 seconds.
+

@@ -1,7 +1,1 @@
 (resolution 1000)
-(line 255
-  (data 81824980 4893180 81824979 4893180)
-  (label "drc_result/000000/ Layout healing: snapped a vertex/edge to a nearby vertex/edge on STRIP layer <mask 0>_1" 126 81824980 4893180))
-(polygon 255
-  (data 81824927 4893127 81825033 4893127 81825033 4893233 81824927 4893233)
-  (label "drc_result/000000/ Layout healing: snapped a vertex/edge to a nearby vertex/edge on STRIP layer <mask 0>_1" 126 81824980 4893180))

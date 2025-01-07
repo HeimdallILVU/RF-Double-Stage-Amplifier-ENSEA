@@ -1,0 +1,21 @@
+
+hpeesofsim (*) 610.shp Aug 20 2024, MINT version 5
+    (64-bit windows built: Tue Aug 20, 2024 21:40:41 +0000)
+
+
+***** Simulation started at Tue Jan  7 12:33:01 2025
+      Running on host: "Heimdall-Laptop"
+      In Directory: "C:\Users\jerem\Documents\git\RF-Double-Stage-Amplifier-ENSEA\ads\RF_Double_Stage_Amplifier_wrk\data"
+      Process ID: 137652
+
+Error detected by hpeesofsim during circuit set up.
+    Spec 'OptimGoal1': Spec 'OptimGoal1': analysis 'SP1' is not found..
+
+
+-------------------------------------------------------------------------------
+Simulation finished with errors.
+-------------------------------------------------------------------------------
+
+Resource usage:
+  Total stopwatch time     =     1.02 seconds.
+

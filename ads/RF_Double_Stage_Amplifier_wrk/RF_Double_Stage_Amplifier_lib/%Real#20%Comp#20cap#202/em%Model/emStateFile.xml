@@ -281,7 +281,7 @@
           <SpecificFrequency></SpecificFrequency>
           <SpecificFreqUnit>3</SpecificFreqUnit>
           <RefinementStrategy>0</RefinementStrategy>
-          <MaxRefineFrequency>12.5 GHz</MaxRefineFrequency>
+          <MaxRefineFrequency>25 GHz</MaxRefineFrequency>
           <RefineFreqUnit>3</RefineFreqUnit>
           <NbBondwireSegments>4</NbBondwireSegments>
           <NbConsecutivePassesRequired>1</NbConsecutivePassesRequired>
@@ -479,7 +479,7 @@
       <SaveFieldsType>2</SaveFieldsType>
     </FemSimReuseVisualization>
     <MomLayout version="1.0">
-      <workspaceText>/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/RF_Double_Stage_Amplifier_wrk</workspaceText>
+      <workspaceText>C:\Users\jerem\Documents\git\RF-Double-Stage-Amplifier-ENSEA\ads\RF_Double_Stage_Amplifier_wrk</workspaceText>
       <libraryText>RF_Double_Stage_Amplifier_lib</libraryText>
       <cellText>Real Comp cap 2</cellText>
       <viewText>layout</viewText>
@@ -517,7 +517,7 @@
             <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
             <EdgeMeshEdgeWidthUnit>3</EdgeMeshEdgeWidthUnit>
             <TLMeshEnabled>True</TLMeshEnabled>
-            <TLMeshCellsInWidth>3</TLMeshCellsInWidth>
+            <TLMeshCellsInWidth>5</TLMeshCellsInWidth>
             <MeshReductionEnabled>True</MeshReductionEnabled>
             <ThinLayerOverlapExtractionEnabled>True</ThinLayerOverlapExtractionEnabled>
             <ThinLayerOverlapExtractionType>1</ThinLayerOverlapExtractionType>
@@ -2536,7 +2536,7 @@
           <EdgeMeshEdgeWidth>0</EdgeMeshEdgeWidth>
           <EdgeMeshEdgeWidthUnit>3</EdgeMeshEdgeWidthUnit>
           <TLMeshEnabled>True</TLMeshEnabled>
-          <TLMeshCellsInWidth>3</TLMeshCellsInWidth>
+          <TLMeshCellsInWidth>5</TLMeshCellsInWidth>
           <MeshReductionEnabled>True</MeshReductionEnabled>
           <ThinLayerOverlapExtractionEnabled>True</ThinLayerOverlapExtractionEnabled>
           <ThinLayerOverlapExtractionType>1</ThinLayerOverlapExtractionType>
@@ -4550,7 +4550,7 @@
           <numFreq>1</numFreq>
           <typeFreq>0</typeFreq>
           <startFreq>0</startFreq>
-          <stopFreq>12.5</stopFreq>
+          <stopFreq>25</stopFreq>
           <ptsFreq>256 (max)</ptsFreq>
           <stepFreq>-1</stepFreq>
           <enableFreq>True</enableFreq>
@@ -4791,34 +4791,6 @@
           </offeringMap>
         </PartitionCellDef>
         <keyName>ads_tlines:VIAGND</keyName>
-        <PartitionCellDef version="1.0">
-          <definedBy>0</definedBy>
-          <offeringMap>
-            <keyName>circuit</keyName>
-            <PartitionItem version="1.0">
-              <partitionName>circuit</partitionName>
-              <definedBy>0</definedBy>
-              <PartitionAction version="1.0">
-                <definedBy>0</definedBy>
-                <decision>4</decision>
-                <viewOverride></viewOverride>
-                <viewOverrideType></viewOverrideType>
-              </PartitionAction>
-            </PartitionItem>
-            <keyName>em</keyName>
-            <PartitionItem version="1.0">
-              <partitionName>em</partitionName>
-              <definedBy>0</definedBy>
-              <PartitionAction version="1.0">
-                <definedBy>0</definedBy>
-                <decision>3</decision>
-                <viewOverride></viewOverride>
-                <viewOverrideType></viewOverrideType>
-              </PartitionAction>
-            </PartitionItem>
-          </offeringMap>
-        </PartitionCellDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele</keyName>
         <PartitionCellDef version="1.0">
           <definedBy>0</definedBy>
           <offeringMap>
@@ -5432,150 +5404,6 @@
           <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
           <isEmPrimitive>False</isEmPrimitive>
         </PartitionInstDef>
-        <keyName>RF_Double_Stage_Amplifier_lib:Real Comp cap 2:layout:X1</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>RF_Double_Stage_Amplifier_lib:Real Comp cap 2:layout:X2</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V1</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V2</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V65</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V66</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V73</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V75</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V76</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V77</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V78</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V79</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V80</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V81</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V82</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V83</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V84</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
-        <keyName>test_model_ce3512k2_lib:CEL_CE3512K2_modele:layout:V85</keyName>
-        <PartitionInstDef version="1.1">
-          <definedBy>34</definedBy>
-          <libCellView>ads_tlines:VIAGND:layout</libCellView>
-          <selectedCosimOffering>em</selectedCosimOffering>
-          <dataIfDifferentFromSelected></dataIfDifferentFromSelected>
-          <isEmPrimitive>False</isEmPrimitive>
-        </PartitionInstDef>
       </instDefs>
     </Partitioning>
     <PortEditorDialog version="1.1">
@@ -6015,7 +5843,7 @@
             <portNum>1</portNum>
             <portName>P1</portName>
             <refImpedance>50:0</refImpedance>
-            <feedType>TML</feedType>
+            <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
@@ -6030,7 +5858,7 @@
             <portNum>2</portNum>
             <portName>P2</portName>
             <refImpedance>50:0</refImpedance>
-            <feedType>TML</feedType>
+            <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
@@ -6045,7 +5873,7 @@
             <portNum>3</portNum>
             <portName>P3</portName>
             <refImpedance>50:0</refImpedance>
-            <feedType>TML</feedType>
+            <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
@@ -6060,7 +5888,7 @@
             <portNum>4</portNum>
             <portName>P4</portName>
             <refImpedance>50:0</refImpedance>
-            <feedType>TML</feedType>
+            <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
@@ -6075,7 +5903,7 @@
             <portNum>5</portNum>
             <portName>P5</portName>
             <refImpedance>50:0</refImpedance>
-            <feedType>TML</feedType>
+            <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
@@ -6090,7 +5918,7 @@
             <portNum>6</portNum>
             <portName>P6</portName>
             <refImpedance>50:0</refImpedance>
-            <feedType>TML</feedType>
+            <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
@@ -6105,7 +5933,7 @@
             <portNum>7</portNum>
             <portName>P7</portName>
             <refImpedance>50:0</refImpedance>
-            <feedType>TML</feedType>
+            <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
@@ -6120,7 +5948,7 @@
             <portNum>8</portNum>
             <portName>P8</portName>
             <refImpedance>50:0</refImpedance>
-            <feedType>TML</feedType>
+            <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
@@ -6135,7 +5963,7 @@
             <portNum>9</portNum>
             <portName>P9</portName>
             <refImpedance>50:0</refImpedance>
-            <feedType>TML</feedType>
+            <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
@@ -6150,7 +5978,7 @@
             <portNum>10</portNum>
             <portName>P10</portName>
             <refImpedance>50:0</refImpedance>
-            <feedType>TML</feedType>
+            <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
@@ -6165,7 +5993,7 @@
             <portNum>11</portNum>
             <portName>P11</portName>
             <refImpedance>50:0</refImpedance>
-            <feedType>TML</feedType>
+            <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
@@ -6180,7 +6008,7 @@
             <portNum>12</portNum>
             <portName>P12</portName>
             <refImpedance>50:0</refImpedance>
-            <feedType>TML</feedType>
+            <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
@@ -6195,7 +6023,7 @@
             <portNum>13</portNum>
             <portName>P13</portName>
             <refImpedance>50:0</refImpedance>
-            <feedType>TML</feedType>
+            <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
@@ -6210,7 +6038,7 @@
             <portNum>14</portNum>
             <portName>P14</portName>
             <refImpedance>50:0</refImpedance>
-            <feedType>TML</feedType>
+            <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
             <gndLayer></gndLayer>
@@ -6347,7 +6175,7 @@
     <SimSetupOverview version="2.0">
       <setupType>0</setupType>
       <simulator>0</simulator>
-      <overview>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Simulator:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Momentum simulation in microwave mode&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Layout:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Workspace: /users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/RF_Double_Stage_Amplifier_wrk&lt;br>Library: RF_Double_Stage_Amplifier_lib&lt;br>Cell: Real Comp cap 2&lt;br>View: layout&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Partitioning between EM and circuit:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM simulation/model of all items&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Substrate:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Substrate: teflon_762um_v3 (defined in library: RF_Double_Stage_Amplifier_lib)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Ports:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">22 ports defined&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Frequency plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Adaptive from 0 GHz to 12.5 GHz (Npts (256 max))&lt;br>Discrete from 0 GHz to 0 GHz (Npts 1)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Output plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Template: Auto-select&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Dataset: Real_Comp_cap_2_MomUW&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Mom Simulation options:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Using local settings&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">All simulation options are initialized and ready for simulation.&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM simulation resources:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Simulation on host:Local&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Model:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM Model: emModel&lt;br>          Auto-updated&lt;/span>&lt;/p>&lt;/body>&lt;/html></overview>
+      <overview>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">p, li { white-space: pre-wrap; }&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Simulator:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Momentum simulation in microwave mode&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Layout:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Workspace: C:\Users\jerem\Documents\git\RF-Double-Stage-Amplifier-ENSEA\ads\RF_Double_Stage_Amplifier_wrk&lt;br>Library: RF_Double_Stage_Amplifier_lib&lt;br>Cell: Real Comp cap 2&lt;br>View: layout&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Partitioning between EM and circuit:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM simulation/model of all items&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Substrate:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Substrate: teflon_762um_v3 (defined in library: RF_Double_Stage_Amplifier_lib)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Ports:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">22 ports defined&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Frequency plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Adaptive from 0 GHz to 25 GHz (Npts (256 max))&lt;br>Discrete from 0 GHz to 0 GHz (Npts 1)&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Output plan:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Template: Auto-select&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Dataset: Real_Comp_cap_2_MomUW&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">Mom Simulation options:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Using local settings&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">All simulation options are initialized and ready for simulation.&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM simulation resources:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">Simulation on host:Local&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;text-decoration:underline">&lt;span style=" font-size:9pt; font-weight:bold">EM Model:&lt;/span>&lt;/p>&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:12px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">EM Model: emModel&lt;br>          Auto-updated&lt;/span>&lt;/p>&lt;/body>&lt;/html></overview>
     </SimSetupOverview>
     <SimulationResources2 version="1.0">
       <resourceType>LocalRemote</resourceType>

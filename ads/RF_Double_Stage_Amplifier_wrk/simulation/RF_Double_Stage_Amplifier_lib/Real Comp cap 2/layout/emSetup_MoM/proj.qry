@@ -1,16 +1,16 @@
-#Momentum: B.2023.00.265 (*) built: Jul  1 2022 
-#Momentum Date and Time: Wed Dec 18 11:30:10 2024
+#Momentum: B.2025.00.341 (*) built: Aug 19 2024 
+#Momentum Date and Time: Mon Jan  6 22:38:01 2025
 
 Overall database status : 1 (file present and valid)
 
-Frequency range : from 0.01326856641 GHz to 12.5 GHz.
+Frequency range : from 0.01326856641 GHz to 25 GHz.
 
-Requested frequency range : from 0.01326856641 GHz to 12.5 GHz.
+Requested frequency range : from 0.01326856641 GHz to 25 GHz.
 
 Individual status fields : (0 = FALSE, 1 = TRUE)
  File exists             : 1
  Substrates match        : 1
  Frequency-range matches : 1
 
-Corresponding potentialpath : /users/jerefleu12/
-Corresponding potentialname : /users/jerefleu12//substrates/0007.sdb
+Corresponding potentialpath : C:\Users\jerem\Documents\ads/
+Corresponding potentialname : C:\Users\jerem\Documents\ads\\substrates\0001.sdb
