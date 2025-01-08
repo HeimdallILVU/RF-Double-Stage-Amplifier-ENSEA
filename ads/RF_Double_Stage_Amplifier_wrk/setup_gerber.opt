@@ -6,25 +6,68 @@
         <NumIntegerDigits>2</NumIntegerDigits>
         <NumFractionalDigits>4</NumFractionalDigits>
         <Unit>inch</Unit>
-        <Layers>
-        </Layers>
+        <Layers />
     </Import>
-
-  <Export>
-    <FileFormat>RS274X</FileFormat>
-    <ZeroSuppression>Leading</ZeroSuppression>
-    <CoordMode>AbsoluteCMode</CoordMode>
-    <NumIntegerDigits>2</NumIntegerDigits>
-    <NumFractionalDigits>4</NumFractionalDigits>
-    <XOffset>0</XOffset>
-    <YOffset>0</YOffset>
-    <Scale>1</Scale>
-    <OpenLineWidth>0.025</OpenLineWidth>
-    <SingleFile>0</SingleFile>
-    <Unit>inch</Unit>
-    <Flatten>0</Flatten>
-    <PathsAsPolygons>0</PathsAsPolygons>
-    <HoleFormat>Holes As Cutlines</HoleFormat>
-    <Layers />
-  </Export>
+    <Export>
+        <FileFormat>RS274X</FileFormat>
+        <ZeroSuppression>Leading</ZeroSuppression>
+        <CoordMode>AbsoluteCMode</CoordMode>
+        <NumIntegerDigits>3</NumIntegerDigits>
+        <NumFractionalDigits>6</NumFractionalDigits>
+        <XOffset>0</XOffset>
+        <YOffset>0</YOffset>
+        <Scale>1</Scale>
+        <OpenLineWidth>0.025</OpenLineWidth>
+        <SingleFile>0</SingleFile>
+        <Unit>mm</Unit>
+        <Flatten>0</Flatten>
+        <PathsAsPolygons>0</PathsAsPolygons>
+        <HoleFormat>Holes As Cutlines</HoleFormat>
+        <Layers>
+            <Layer EecadLayer="ads_device:ads_annotate" AdsLayer="ads_device:ads_annotate" Transfer="1" />
+            <Layer EecadLayer="ads_device:ads_drawing1" AdsLayer="ads_device:ads_drawing1" Transfer="1" />
+            <Layer EecadLayer="ads_device:ads_drawing3" AdsLayer="ads_device:ads_drawing3" Transfer="1" />
+            <Layer EecadLayer="ads_device:ads_drawing4" AdsLayer="ads_device:ads_drawing4" Transfer="1" />
+            <Layer EecadLayer="ads_device:ads_drawing5" AdsLayer="ads_device:ads_drawing5" Transfer="1" />
+            <Layer EecadLayer="ads_device:ads_drawing6" AdsLayer="ads_device:ads_drawing6" Transfer="1" />
+            <Layer EecadLayer="ads_device:ads_drawing7" AdsLayer="ads_device:ads_drawing7" Transfer="1" />
+            <Layer EecadLayer="ads_device:ads_label" AdsLayer="ads_device:ads_label" Transfer="1" />
+            <Layer EecadLayer="ads_device:drawing" AdsLayer="ads_device:drawing" Transfer="1" />
+            <Layer EecadLayer="ads_edgeLayer:drawing" AdsLayer="ads_edgeLayer:drawing" Transfer="1" />
+            <Layer EecadLayer="cond 2:drawing" AdsLayer="cond 2:drawing" Transfer="1" />
+            <Layer EecadLayer="cond:drawing" AdsLayer="cond:drawing" Transfer="1" />
+        </Layers>
+        <SingleFileFilename></SingleFileFilename>
+        <DrillLayers>
+            <Layer LayerName="cond:drawing" LayerNumber="0" DrillExport="1">
+                <DrillDiameterMap DrawDiameter="200000" ToolDiameter="200000" />
+                <DrillDiameterMap DrawDiameter="400000" ToolDiameter="400000" />
+            </Layer>
+            <Layer LayerName="ads_device:ads_drawing7" LayerNumber="231" DrillExport="0">
+                <DrillDiameterMap DrawDiameter="200000" ToolDiameter="200000" />
+            </Layer>
+        </DrillLayers>
+        <AutoMerge>0</AutoMerge>
+        <ImportNegativeLayerAsSlotLayer>0</ImportNegativeLayerAsSlotLayer>
+        <CreateComponentsInFolder>1</CreateComponentsInFolder>
+        <SelectedDesignName></SelectedDesignName>
+        <VectorizeText>1</VectorizeText>
+        <LayerStackup>1</LayerStackup>
+        <Polarity>
+            <Layer EecadLayer="ads_device:ads_annotate" Polarity="Positive" />
+            <Layer EecadLayer="ads_device:ads_drawing1" Polarity="Positive" />
+            <Layer EecadLayer="ads_device:ads_drawing3" Polarity="Positive" />
+            <Layer EecadLayer="ads_device:ads_drawing4" Polarity="Positive" />
+            <Layer EecadLayer="ads_device:ads_drawing5" Polarity="Positive" />
+            <Layer EecadLayer="ads_device:ads_drawing6" Polarity="Positive" />
+            <Layer EecadLayer="ads_device:ads_drawing7" Polarity="Positive" />
+            <Layer EecadLayer="ads_device:ads_label" Polarity="Positive" />
+            <Layer EecadLayer="ads_device:drawing" Polarity="Positive" />
+            <Layer EecadLayer="ads_edgeLayer:drawing" Polarity="Positive" />
+            <Layer EecadLayer="cond 2:drawing" Polarity="Positive" />
+            <Layer EecadLayer="cond:drawing" Polarity="Positive" />
+        </Polarity>
+        <Nets />
+        <Components />
+    </Export>
 </AdsTranslatorSetupFile>

@@ -1,0 +1,59 @@
+
+hpeesofsim (*) 570.shp Jul 19 2022, MINT version 5
+    (64-bit linux built: Tue Jul 19, 2022 14:06:28 +0000)
+
+
+***** Simulation started at Wed, Jan 08 2025 10:27:36 +0100
+      Running on host: "d289-pc2.smbedu.ensea.fr"
+      In Directory: "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/RF_Double_Stage_Amplifier_wrk/data"
+      User: "jerefleu", Process ID: 12310
+
+Pt DC convergence is used.
+
+SP SP3[1] <RF_Double_Stage_Amplifier_lib:Real Comp cap 6:schematic>   freq=(10 MHz->9 GHz)
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(0.009846) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W3' in `Tee15'
+
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(39.915195) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee15'
+
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(0.009988) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W2' in `Tee10'
+
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(45.065244) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee10'
+
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(0.009855) < MinRecommendValue(0.000076) OR UserValue > MaxRecommendValue(0.007620) for 'W2' in `Tee1'
+
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(39.950342) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee1'
+
+Warning detected by hpeesofsim during SP analysis 'SP3'.
+    UserValue(24.794896) > MaxRecommendValue(5.000000) for 'Wlargest/Wsmallest' in `Tee11'
+
+Warning detected by hpeesofsim during SP analysis `SP3'.
+    The DC (0 Hz) value has not been specified in the Touchstone file
+    '/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series/circuit/data/251R15S101_H-SER.s2p'.
+
+Warning detected by hpeesofsim during SP analysis `SP3'.
+    Data in the Touchstone file `/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series/circuit/data/251R15S101_H-SER.s2p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+
+Warning detected by hpeesofsim during SP analysis `SP3'.
+    The DC (0 Hz) value has not been specified in the Touchstone file
+    '/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series/circuit/data/251R15S100_H-SER.s2p'.
+
+
+
+Resource usage:
+    User time                 =     2.58 seconds.
+    System time               =     1.01 seconds.
+    Total CPU time            =     3.59 seconds.
+    Simulation stopwatch time =     4.51 seconds.
+    Total stopwatch time      =     6.23 seconds.
+
+    Physical memory used: 108 MBytes.
+    Incremental virtual memory (data only) used:  48.2 MBytes.
+
