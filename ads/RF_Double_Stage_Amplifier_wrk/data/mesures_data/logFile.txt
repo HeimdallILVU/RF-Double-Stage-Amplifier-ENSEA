@@ -1,0 +1,31 @@
+
+hpeesofsim (*) 610.shp Aug 20 2024, MINT version 5
+    (64-bit windows built: Tue Aug 20, 2024 21:40:41 +0000)
+
+
+***** Simulation started at Thu Jan  9 10:31:07 2025
+      Running on host: "Heimdall-Laptop"
+      In Directory: "C:\Users\jerem\Documents\git\RF-Double-Stage-Amplifier-ENSEA\ads\RF_Double_Stage_Amplifier_wrk\data"
+      Process ID: 141972
+
+
+SP SP3[1] <RF_Double_Stage_Amplifier_lib:mesures:schematic>   freq=(10 MHz->9 GHz)
+Warning detected by hpeesofsim during SP analysis `SP3'.
+    The global circuit temperature (25 C or 298.15 K) does not equal the
+    IEEE standard noise temperature (16.85 C or 290 K) in the noise
+    analysis `SP3'. As a result, the signal-to-noise ratio loss at the
+    the circuit temperature and the noise figure, defined and calculated
+    at the standard noise temperature, might not agree for a passive
+    circuit. To eliminate this possible discrepancy, set the Temp parameter
+    on the Options item to 16.85 C.
+
+Warning detected by hpeesofsim during SP analysis `SP3'.
+    Data in the Touchstone file `C:/Users/jerem/Documents/git/RF-Double-Stage-Amplifier-ENSEA/mesures/PROJETCC10K.S2P'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+
+
+
+Resource usage:
+  Total stopwatch time     =     0.91 seconds.
+

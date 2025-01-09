@@ -1,7 +1,7 @@
-; Top Design: "test_model_ce3512k2_lib:Validation_layout_4:schematic"
+; Top Design: "test_model_ce3512k2_lib:Validation_layout_2:schematic"
 ; Netlisted using Hierarchy Policy: "Standard"
 
-Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="test_model_ce3512k2_lib:Validation_layout_4:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="test_model_ce3512k2_lib:Validation_layout_2:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
 ; Library Name: test_model_ce3512k2_lib
 ; Cell Name: CEL_CE3512K2_modele
 ; View Name: schematic
@@ -18,24 +18,44 @@ TLINP:TL2  N__14 D Z=12.93 Ohm L=242.4 um K=1 A=0.0001 F=1 GHz TanD=0.002 Mur=1 
 end CEL_CE3512K2_modele
 
 ; Library Name: RF_Double_Stage_Amplifier_lib
-; Cell Name: Real Comp cap 6
+; Cell Name: Real Comp cap 4
 ; View Name: emModel
-define "Real#20Comp#20cap#206" ( P1  P2  P3  P4  P5  P6  P31  P32  P33  P34  P11  P12  P13  P14  P15  P16  P17  P18  P19  P20  P21  P22  P23  P24  P25  P26  P27  P28  P29  P30  ref=0 ) 
+define "Real#20Comp#20cap#204" ( P1  P2  P3  P4  P5  P6  P7  P8  P9  P10  P11  P12  P13  P14  P15  P16  P17  P18  P19  P20  P21  P22  ref=0 ) 
 ;parameters 
 ; MomCmpt model has node 0 as implicit reference. Ref node will be ignored and assumed to be grounded!
-em_data_name="RF_Double_Stage_Amplifier_lib:Real Comp cap 6:emModel"
-MomCmpt:em_data  P1 P2 P3 P4 P5 P6 P31 P32 P33 P34 \
+em_data_name="RF_Double_Stage_Amplifier_lib:Real Comp cap 4:emModel"
+MomCmpt:em_data  P1 P2 P3 P4 P5 P6 P7 P8 P9 P10 \
    P11 P12 P13 P14 P15 P16 P17 P18 P19 P20 \
-   P21 P22 P23 P24 P25 P26 P27 P28 P29 P30 \
+   P21 P22 \
     name=em_data_name \
     paramFile="" \
-    modelFile="/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/RF_Double_Stage_Amplifier_wrk/RF_Double_Stage_Amplifier_lib/%Real#20%Comp#20cap#206/em%Model/model.ndx" \
+    modelFile="C:/Users/jerem/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/RF_Double_Stage_Amplifier_wrk/RF_Double_Stage_Amplifier_lib/%Real#20%Comp#20cap#204/em%Model/model.ndx" \
     ModelReuse=1 \
     ModelType="MOMMW" \
     ExtrapolationMode="linear" \
     EnforcePassivity=-1
-end "Real#20Comp#20cap#206"
+end "Real#20Comp#20cap#204"
 
+#include "C:/Users/jerem/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series//circuit/models/R15S_cktName.net" 
+R15S_cktName:SNP5 N__9 N__10 File="251R15S100_H-SER.s2p" Temp=25 
+#include "C:/Users/jerem/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series//circuit/models/R15S_cktName.net" 
+R15S_cktName:SNP3 N__11 N__12 File="251R15S100_H-SER.s2p" Temp=25 
+#include "C:/Users/jerem/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series//circuit/models/R15S_cktName.net" 
+R15S_cktName:SNP2 N__13 N__14 File="251R15S100_H-SER.s2p" Temp=25 
+#include "C:/Users/jerem/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series//circuit/models/R15S_cktName.net" 
+R15S_cktName:SNP4 N__15 N__46 File="251R15S100_H-SER.s2p" Temp=25 
+R:R6  N__17 N__18 R=47 Ohm tune{ 11 Ohm to 50 Ohm by 2.2 Ohm } 
+R:R5  N__19 N__20 R=100 Ohm 
+"Real#20Comp#20cap#204":X4  N__4 N__36 N__3 N__0 N__42 N__43 N__9 N__10 N__15 N__46 N__11 N__12 N__13 N__14 N__19 N__20 N__17 N__18 N__25 N__22 N__6 N__24 
+Short:DC_Feed6  N__5 N__24 Mode=-1 
+Short:DC_Feed4  N__26 N__23 Mode=-1 
+Short:DC_Feed3  N__27 N__22 Mode=-1 
+Short:DC_Feed5  N__28 N__21 Mode=-1 
+V_Source:SRC2  N__8 0 Type="V_DC" Vdc=Vds SaveCurrent=1 
+V_Source:SRC4  N__26 0 Type="V_DC" Vdc=Vgs SaveCurrent=1 
+V_Source:SRC3  N__27 0 Type="V_DC" Vdc=Vds SaveCurrent=1 
+V_Source:SRC5  N__28 0 Type="V_DC" Vdc=Vgs SaveCurrent=1 
+Short:Id  N__8 N__5 Mode=0 SaveCurrent=yes 
 OptimGoal:OptimGoal5 Expr="StabFact1" SimInstanceName="SP2" Weight=100 \
 IndepVar[1]="freq" \
 SpecLimitLine[1]="OptimGoal5_limit1" 
@@ -76,7 +96,7 @@ DC_WriteFinalSolution=no TopologyCheckMessages=no GPU=no doDeltaAC=no ReduceSPor
 ReduceSPortRatio=0.5 WarnSOA=yes MaxWarnSOA=5 Census=no MinNodalR=1e-2 Ohm  \
 LargeCapThreshold=1e-3 F EnableAssertChecks=no EnableSpareRemoval=no 
 
-S_Param:SP3 CalcS=yes CalcY=no CalcZ=yes GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=yes SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 \
+S_Param:SP3 CalcS=yes CalcY=no CalcZ=yes GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=yes SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
 SweepVar="freq" SweepPlan="SP3_stim" OutputPlan="SP3_Output" 
 
 SweepPlan: SP3_stim Start=0.01 GHz Stop=9 GHz Dec=1000 
@@ -94,37 +114,11 @@ Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
 Vgs=-0.3
 Vds=2.5
 
-Optim:"Optim1" OptimType="hpVMO" ErrorForm="L2" SAProgressReport=0 MaxIters=2000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 SANumTrialsPerIter=10 NumShootsPerIter=20 SATempControlAlpha=0.8 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
+Optim:"Optim1" OptimType="hpVMO" ErrorForm="L2" SAProgressReport=0 MaxIters=2000 P=2 DesiredError=0.0 StatusLevel=4 FinalAnalysis="None" NormalizeGoals=yes SetBestValues=yes SaveSolns=yes SaveGoals=yes SaveOptimVars=no UpdateDataset=yes SaveNominal=no SaveAllIterations=no UseAllOptVars=yes UseAllGoals=yes SaveCurrentEF=no InitialTempControlMode=0 SANumTrialsPerIter=10 NumShootsPerIter=20 SATempControlAlpha=0.8 CoranaSkip=0.0 EnableCockpit=yes NormalizeError=yes SaveAllTrials=no UseAdvTermCriteria=no CostRelativeTol=1.0e-8 LimitOfContSmallImprovement=5 
 
+CEL_CE3512K2_modele:X3  N__42 N__43 0 0 
+CEL_CE3512K2_modele:X2  N__3 N__0 0 0 
 Port:Term1  N__4 0 Num=1 Z=50 Ohm Noise=yes 
-Port:Term2  N__56 0 Num=2 Z=50 Ohm Noise=yes 
-"Real#20Comp#20cap#206":X4  N__4 N__56 N__55 N__54 N__53 N__52 N__51 N__3 N__49 N__48 N__47 N__1 N__2 N__6 N__9 N__10 N__16 N__25 N__29 N__30 N__32 N__33 N__34 N__35 N__38 N__39 N__40 N__41 N__44 N__45 
-CEL_CE3512K2_modele:X2  N__51 N__3 0 0 
-CEL_CE3512K2_modele:X3  N__49 N__48 0 0 
-#include "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series//circuit/models/R15S_cktName.net" 
-R15S_cktName:SNP6 N__40 N__41 File="251R15S100_H-SER.s2p" Temp=25 
-#include "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series//circuit/models/R15S_cktName.net" 
-R15S_cktName:SNP2 N__44 N__45 File="251R15S101_H-SER.s2p" Temp=25 
-Short:DC_Feed6  N__24 N__52 Mode=-1 
-V_Source:SRC2  N__8 0 Type="V_DC" Vdc=Vds SaveCurrent=1 
-Short:Id  N__8 N__24 Mode=0 SaveCurrent=yes 
-#include "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series//circuit/models/R15S_cktName.net" 
-R15S_cktName:SNP7 N__34 N__35 File="251R15S100_H-SER.s2p" Temp=25 
-#include "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series//circuit/models/R15S_cktName.net" 
-R15S_cktName:SNP3 N__38 N__39 File="251R15S101_H-SER.s2p" Temp=25 
-R:R6  N__2 N__6 R=50 Ohm 
-#include "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series//circuit/models/R15S_cktName.net" 
-R15S_cktName:SNP8 N__32 N__33 File="251R15S1R0_H-SER.s2p" Temp=25 
-#include "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series//circuit/models/R15S_cktName.net" 
-R15S_cktName:SNP4 N__29 N__30 File="251R15S101_H-SER.s2p" Temp=25 
-R:R5  N__47 N__1 R=50 Ohm 
-Short:DC_Feed4  N__26 N__53 Mode=-1 
-V_Source:SRC4  N__26 0 Type="V_DC" Vdc=Vgs SaveCurrent=1 
-Short:DC_Feed3  N__27 N__54 Mode=-1 
-V_Source:SRC3  N__27 0 Type="V_DC" Vdc=Vds SaveCurrent=1 
-Short:DC_Feed5  N__28 N__55 Mode=-1 
-V_Source:SRC5  N__28 0 Type="V_DC" Vdc=Vgs SaveCurrent=1 
-#include "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series//circuit/models/R15S_cktName.net" 
-R15S_cktName:SNP9 N__9 N__10 File="251R15S100_H-SER.s2p" Temp=25 
-#include "/users/jerefleu12/Documents/git/RF-Double-Stage-Amplifier-ENSEA/ads/JTI_CAPS_S_Series//circuit/models/R15S_cktName.net" 
-R15S_cktName:SNP5 N__16 N__25 File="251R15S101_H-SER.s2p" Temp=25 
+Port:Term2  N__36 0 Num=2 Z=50 Ohm Noise=yes 
+R:R7  N__21 N__25 R=10 kOhm Noise=yes 
+R:R8  N__23 N__6 R=10 kOhm Noise=yes 

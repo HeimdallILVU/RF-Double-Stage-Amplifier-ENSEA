@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      heimdall
+HostName                       Heimdall-Laptop
+ProcessIdentifier              41784
+ProcessCreationTime_UTC        1736356117
+ProcessCreationTime_Readable   Wed Jan  8 18:08:37 2025 Paris, Madrid
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         C:\Users\jerem\Documents\git\RF-Double-Stage-Amplifier-ENSEA\ads\ce3512k2_2023_wrk\test_model_ce3512k2_lib\%Validation_layout_2\schematic\sch.oa.cdslck
+TimeEditLocked                 Thu Jan  9 08:45:23 2025 Paris, Madrid

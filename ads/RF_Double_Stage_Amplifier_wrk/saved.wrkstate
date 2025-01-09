@@ -1,8 +1,10 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
     <Windows>
-        <Schematic x1="0" lib="RF_Double_Stage_Amplifier_lib" geom="1,0,2,621,48,958,1000,1920,1080" width="1920" view="schematic" y1="27" height="1016" cell="Real Comp cap 6"/>
-        <DDS name="Real Comp cap 6.dds"/>
+        <Schematic y1="-8" x1="-1" width="1920" cell="Validation_layout_4" height="1009" lib="test_model_ce3512k2_lib" view="schematic" geom="1,0,2,621,48,958,1000,1920,1080"/>
+        <Schematic y1="-8" x1="-1" width="1920" cell="Real Comp cap 6" height="1009" lib="RF_Double_Stage_Amplifier_lib" view="schematic" geom="1,0,2,641,68,958,1000,1920,1080"/>
+        <Schematic y1="-8" x1="-1" width="1920" cell="Real Comp cap 4" height="1009" lib="RF_Double_Stage_Amplifier_lib" view="schematic" geom="1,0,2,661,88,958,1000,1920,1080"/>
+        <DDS name="Real Comp cap 4.dds"/>
     </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>
